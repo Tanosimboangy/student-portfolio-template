@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"C:\\Users\\Jaccquit\\code\\student-portfolio-template\\fonts\\Montserrat_Regular.woff2":[["Montserrat_Regular.ca2d2784.woff2","fonts/Montserrat_Regular.woff2"],"fonts/Montserrat_Regular.woff2"],"C:\\Users\\Jaccquit\\code\\student-portfolio-template\\fonts\\Montserrat_Regular.woff":[["Montserrat_Regular.52b21143.woff","fonts/Montserrat_Regular.woff"],"fonts/Montserrat_Regular.woff"],"C:\\Users\\Jaccquit\\code\\student-portfolio-template\\fonts\\Montserrat_SemiBold.woff2":[["Montserrat_SemiBold.3c2798a9.woff2","fonts/Montserrat_SemiBold.woff2"],"fonts/Montserrat_SemiBold.woff2"],"C:\\Users\\Jaccquit\\code\\student-portfolio-template\\fonts\\Montserrat_SemiBold.woff":[["Montserrat_SemiBold.3f530822.woff","fonts/Montserrat_SemiBold.woff"],"fonts/Montserrat_SemiBold.woff"],"C:\\Users\\Jaccquit\\code\\student-portfolio-template\\fonts\\Montserrat_Bold.woff2":[["Montserrat_Bold.4ccf02a8.woff2","fonts/Montserrat_Bold.woff2"],"fonts/Montserrat_Bold.woff2"],"C:\\Users\\Jaccquit\\code\\student-portfolio-template\\fonts\\Montserrat_Bold.woff":[["Montserrat_Bold.a89e8958.woff","fonts/Montserrat_Bold.woff"],"fonts/Montserrat_Bold.woff"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57345" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59920" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
