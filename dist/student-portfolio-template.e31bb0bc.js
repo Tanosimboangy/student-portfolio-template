@@ -29830,7 +29830,18 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Blog() {
-  return /*#__PURE__*/_react.default.createElement("div", null);
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "blog"
+  }, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("ul", {
+    className: "blog_heading"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h2", null, "Blog"), /*#__PURE__*/_react.default.createElement("h3", null, "How to organize your CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
+    src: "",
+    alt: "best design"
+  }))), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "blog_paragraph--lists"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("p", null, "In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("p", null, "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."))), /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://devchallenges.io/"
+  }, "dev.to")));
 }
 
 var _default = Blog;
@@ -29866,7 +29877,26 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Hobbies() {
-  return /*#__PURE__*/_react.default.createElement("div", null);
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "hobbies"
+  }, /*#__PURE__*/_react.default.createElement("h2", {
+    className: "hobbies_heading"
+  }, "Hobbies"), /*#__PURE__*/_react.default.createElement("article", {
+    className: "music_article"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "",
+    alt: "music"
+  }), /*#__PURE__*/_react.default.createElement("h3", null, "Listening to musics"), /*#__PURE__*/_react.default.createElement("p", null, "Have fun in your life.")), /*#__PURE__*/_react.default.createElement("article", {
+    className: "cooking_article"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "",
+    alt: "cooking"
+  }), /*#__PURE__*/_react.default.createElement("h3", null, "Cooking"), /*#__PURE__*/_react.default.createElement("p", null, "Taste the best food ever.")), /*#__PURE__*/_react.default.createElement("article", {
+    className: "biking_article"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "",
+    alt: "biking"
+  }), /*#__PURE__*/_react.default.createElement("h3", null, "Biking"), /*#__PURE__*/_react.default.createElement("p", null, "Enjoy your spare time by wandering around where you are.")));
 }
 
 var _default = Hobbies;
@@ -29892,37 +29922,37 @@ function Progress() {
     className: "progress_lists"
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "react"
-  }, "React:"), /*#__PURE__*/_react.default.createElement("progress", {
+  }, "React: "), /*#__PURE__*/_react.default.createElement("progress", {
     id: "react",
     max: "100",
     value: "50"
   }, " 50% ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "javascript"
-  }, "Javascript:"), /*#__PURE__*/_react.default.createElement("progress", {
+  }, "Javascript: "), /*#__PURE__*/_react.default.createElement("progress", {
     id: "javascript",
     max: "100",
     value: "70"
   }, " 70% ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "css"
-  }, "CSS:"), /*#__PURE__*/_react.default.createElement("progress", {
+  }, "CSS: "), /*#__PURE__*/_react.default.createElement("progress", {
     id: "css",
     max: "100",
     value: "80"
   }, " 80% ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "vue"
-  }, "Vue:"), /*#__PURE__*/_react.default.createElement("progress", {
+  }, "Vue: "), /*#__PURE__*/_react.default.createElement("progress", {
     id: "vue",
     max: "100",
     value: "40"
   }, " 40% ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "redux"
-  }, "Redux:"), /*#__PURE__*/_react.default.createElement("progress", {
+  }, "Redux: "), /*#__PURE__*/_react.default.createElement("progress", {
     id: "redux",
     max: "100",
     value: "10"
   }, " 10% ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "react_native"
-  }, "React Native:"), /*#__PURE__*/_react.default.createElement("progress", {
+  }, "React Native: "), /*#__PURE__*/_react.default.createElement("progress", {
     id: "react_native",
     max: "100",
     value: "20"
@@ -30051,7 +30081,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59920" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62228" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
