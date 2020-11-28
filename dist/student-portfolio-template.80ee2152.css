@@ -15,7 +15,7 @@ body {
   padding: 16px;
   font-family: "Montserrat_Regular";
   font-style: normal;
-  background-color: rgba(245, 243, 243, 0.752);
+  background-color: #e9e5e5;
 }
 body ul {
   padding: 0;
@@ -33,13 +33,15 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p {
 
 @media (min-width: 720px) {
   body {
-    max-width: 90%;
+    padding: 0;
+    padding-top: 16px;
+    max-width: 95%;
     margin: auto;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   body {
-    max-width: 70%;
+    max-width: 75%;
     margin: auto;
   }
 }
@@ -47,7 +49,6 @@ body .header_container {
   background-color: #FFFFFF;
   border-radius: 12px;
   padding: 16px;
-  box-shadow: 2px 2px 10px #cfcfcf;
   max-width: 400px;
   margin: auto;
   margin-bottom: 40px;
@@ -56,7 +57,7 @@ body .header_container .header_profile {
   padding-bottom: 20px;
 }
 body .header_container .header_profile img {
-  max-width: 55vw;
+  max-width: 60%;
   border-radius: 12px;
   cursor: pointer;
 }
@@ -85,6 +86,9 @@ body .header_container .personal_details .personal_contact {
   color: #4F4F4F;
   padding-bottom: 20px;
 }
+body .header_container .personal_details .personal_contact .email_contact {
+  padding-bottom: 6px;
+}
 body .header_container .personal_details .personal_contact .email_contact a {
   padding-bottom: 10px;
   font-family: "Montserrat_SemiBold";
@@ -93,6 +97,30 @@ body .header_container .personal_details .personal_contact .email_contact a {
   font-size: 18px;
   line-height: 22px;
   color: orange;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body .header_container .personal_details .personal_contact .email_contact a svg {
+  padding-right: 20px;
+}
+body .header_container .personal_details .personal_contact .email_contact a:hover {
+  color: blue;
+  font-weight: 600;
+}
+body .header_container .personal_details .personal_contact .email_contact a:hover svg {
+  fill: blue;
+}
+body .header_container .personal_details .personal_contact .phonenumber_contact p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body .header_container .personal_details .personal_contact .phonenumber_contact p svg {
+  padding-right: 20px;
+}
+body .header_container .personal_details .personal_contact .phonenumber_contact p:hover svg {
+  fill: blue;
 }
 body .header_container .personal_motivation p {
   font-family: "Montserrat_Regular";
@@ -111,7 +139,7 @@ body .header_container .personal_motivation p {
     max-width: 100%;
   }
   body .header_container .header_profile {
-    margin-right: 32px;
+    margin-right: 10%;
     padding-bottom: 20px;
   }
   body .header_container .header_profile img {
@@ -146,16 +174,16 @@ body .header_container .personal_motivation p {
   padding: 16px;
   background-color: #FFFFFF;
   border-radius: 12px;
-  box-shadow: 2px 2px 10px #cfcfcf;
-  max-width: 400px;
+  max-width: 100%;
   margin: auto;
+  margin-bottom: 42px;
+  color: #4F4F4F;
 }
 .progress_container .progress_heading {
   font-family: "Montserrat_Bold";
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
-  color: #4F4F4F;
   padding-left: 7px;
   padding-top: 7px;
   padding-bottom: 17px;
@@ -167,7 +195,6 @@ body .header_container .personal_motivation p {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #4F4F4F;
 }
 .progress_container .progress_lists li .progress_elements {
   display: flex;
@@ -177,10 +204,43 @@ body .header_container .personal_motivation p {
   flex-wrap: wrap;
 }
 .progress_container .progress_lists li .progress_elements li:last-of-type .progress {
+  max-width: 100%;
   height: 30px;
 }
 .progress_container .progress_lists li:not(:last-of-type) {
   padding-bottom: 5px;
+}
+
+.hobbies {
+  padding: 16px;
+  background-color: #FFFF;
+  border-radius: 12px;
+  color: #4F4F4F;
+}
+.hobbies .hobbies_heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  padding-left: 6px;
+  padding-top: 6px;
+  padding-bottom: 16px;
+}
+.hobbies article img {
+  max-width: 80%;
+  border-radius: 12px;
+}
+.hobbies article h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 10px;
+}
+.hobbies article p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=/student-portfolio-template.80ee2152.css.map */

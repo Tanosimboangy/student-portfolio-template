@@ -29774,6 +29774,10 @@ if ("development" === 'production') {
 }
 },{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"img/jacquit.jpg":[function(require,module,exports) {
 module.exports = "/jacquit.c3decd13.jpg";
+},{}],"img/email.svg":[function(require,module,exports) {
+module.exports = "/email.d035182d.svg";
+},{}],"img/phone.svg":[function(require,module,exports) {
+module.exports = "/phone.564ed6d2.svg";
 },{}],"components/Header.js":[function(require,module,exports) {
 "use strict";
 
@@ -29785,6 +29789,10 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 
 var _jacquit = _interopRequireDefault(require("../img/jacquit.jpg"));
+
+var _email = _interopRequireDefault(require("../img/email.svg"));
+
+var _phone = _interopRequireDefault(require("../img/phone.svg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29808,16 +29816,38 @@ function Header() {
     className: "email_contact"
   }, /*#__PURE__*/_react.default.createElement("a", {
     href: "mailto:rak.hajasper@mail.com?"
-  }, "Jacquit@gmail.com")), /*#__PURE__*/_react.default.createElement("li", {
+  }, /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: "orange",
+    height: "24",
+    viewBox: "0 0 24 24",
+    width: "24"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M0 0h24v24H0z",
+    fill: "none"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+  })), " Jacquit@gmail.com")), /*#__PURE__*/_react.default.createElement("li", {
     className: "phonenumber_contact"
-  }, /*#__PURE__*/_react.default.createElement("p", null, "(+261)344605298")))), /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("p", null, /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: "orange",
+    height: "24",
+    viewBox: "0 0 24 24",
+    width: "24"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M0 0h24v24H0z",
+    fill: "none"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+  })), "(+261) 344605298")))), /*#__PURE__*/_react.default.createElement("div", {
     className: "personal_motivation"
   }, /*#__PURE__*/_react.default.createElement("p", null, "Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that I think is helpful in all domains."))));
 }
 
 var _default = Header;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../img/jacquit.jpg":"img/jacquit.jpg"}],"elements/Blog.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../img/jacquit.jpg":"img/jacquit.jpg","../img/email.svg":"img/email.svg","../img/phone.svg":"img/phone.svg"}],"elements/Blog.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29877,7 +29907,9 @@ function Experiences() {
 
 var _default = Experiences;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"elements/Hobbies.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"img/game.webp":[function(require,module,exports) {
+module.exports = "/game.e8918784.webp";
+},{}],"elements/Hobbies.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29886,6 +29918,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
+
+var _game = _interopRequireDefault(require("../img/game.webp"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29897,24 +29931,24 @@ function Hobbies() {
   }, "Hobbies"), /*#__PURE__*/_react.default.createElement("article", {
     className: "music_article"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    src: "",
+    src: _game.default,
     alt: "music"
-  }), /*#__PURE__*/_react.default.createElement("h3", null, "Listening to musics"), /*#__PURE__*/_react.default.createElement("p", null, "Have fun in your life.")), /*#__PURE__*/_react.default.createElement("article", {
+  }), /*#__PURE__*/_react.default.createElement("h3", null, "Game"), /*#__PURE__*/_react.default.createElement("p", null, "Have fun in your life.")), /*#__PURE__*/_react.default.createElement("article", {
     className: "cooking_article"
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: "",
     alt: "cooking"
-  }), /*#__PURE__*/_react.default.createElement("h3", null, "Cooking"), /*#__PURE__*/_react.default.createElement("p", null, "Taste the best food ever.")), /*#__PURE__*/_react.default.createElement("article", {
+  }), /*#__PURE__*/_react.default.createElement("h3", null, "washing"), /*#__PURE__*/_react.default.createElement("p", null, "Take care of yourself very well.")), /*#__PURE__*/_react.default.createElement("article", {
     className: "biking_article"
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: "",
     alt: "biking"
-  }), /*#__PURE__*/_react.default.createElement("h3", null, "Biking"), /*#__PURE__*/_react.default.createElement("p", null, "Enjoy your spare time by wandering around where you are.")));
+  }), /*#__PURE__*/_react.default.createElement("h3", null, "Running"), /*#__PURE__*/_react.default.createElement("p", null, "Enjoy your time for practicing sport, as well as keeping yoursel healthy.")));
 }
 
 var _default = Hobbies;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"elements/Progress.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../img/game.webp":"img/game.webp"}],"elements/Progress.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -30272,7 +30306,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62228" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53547" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
