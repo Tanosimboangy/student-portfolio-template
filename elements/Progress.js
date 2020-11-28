@@ -11,7 +11,7 @@ function Progress() {
                             <label htmlFor="react">React: </label>
                         </li>
                         <li>
-                            <progress id="react" max="100" value="50"> 50% </progress>
+                            <progress className="progress" id="react" max="100" value="50"> 50% </progress>
                         </li>
                     </ul>
                 </li>
@@ -21,7 +21,7 @@ function Progress() {
                             <label htmlFor="javascript">Javascript: </label>
                         </li>
                         <li>
-                            <progress id="javascript" max="100" value="70"> 70% </progress>
+                            <progress className="progress" id="javascript" max="100" value="40"> 40% </progress>
                         </li>
                     </ul>
                 </li>
@@ -31,7 +31,7 @@ function Progress() {
                             <label htmlFor="css">CSS: </label>
                         </li>
                         <li>
-                            <progress id="css" max="100" value="80"> 80% </progress>
+                            <progress className="progress" id="css" max="100" value="80"> 80% </progress>
                         </li>
                     </ul>
                 </li>
@@ -41,7 +41,7 @@ function Progress() {
                             <label htmlFor="vue">Vue: </label>
                         </li>
                         <li>
-                            <progress id="vue" max="100" value="40"> 40% </progress>
+                            <progress className="progress" id="vue" max="100" value="80"> 80% </progress>
                         </li>
                     </ul>
                 </li>
@@ -51,7 +51,7 @@ function Progress() {
                             <label htmlFor="redux">Redux: </label>
                         </li>
                         <li>
-                            <progress id="redux" max="100" value="10"> 10% </progress>
+                            <progress className="progress" id="redux" max="100" value="10"> 10% </progress>
                         </li>
                     </ul>
                 </li>
@@ -61,7 +61,7 @@ function Progress() {
                             <label htmlFor="react_native">React Native: </label>
                         </li>
                         <li>
-                            <progress id="react_native" max="100" value="20"> 20% </progress>
+                            <progress className="progress" id="react_native" max="100" value="20"> 20% </progress>
                         </li>
                     </ul>
                 </li>

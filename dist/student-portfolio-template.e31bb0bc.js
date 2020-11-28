@@ -29938,6 +29938,7 @@ function Progress() {
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "react"
   }, "React: ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("progress", {
+    className: "progress",
     id: "react",
     max: "100",
     value: "50"
@@ -29946,14 +29947,16 @@ function Progress() {
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "javascript"
   }, "Javascript: ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("progress", {
+    className: "progress",
     id: "javascript",
     max: "100",
-    value: "70"
-  }, " 70% ")))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", {
+    value: "40"
+  }, " 40% ")))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", {
     className: "progress_elements"
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "css"
   }, "CSS: ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("progress", {
+    className: "progress",
     id: "css",
     max: "100",
     value: "80"
@@ -29962,14 +29965,16 @@ function Progress() {
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "vue"
   }, "Vue: ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("progress", {
+    className: "progress",
     id: "vue",
     max: "100",
-    value: "40"
-  }, " 40% ")))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", {
+    value: "80"
+  }, " 80% ")))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", {
     className: "progress_elements"
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "redux"
   }, "Redux: ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("progress", {
+    className: "progress",
     id: "redux",
     max: "100",
     value: "10"
@@ -29978,6 +29983,7 @@ function Progress() {
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "react_native"
   }, "React Native: ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("progress", {
+    className: "progress",
     id: "react_native",
     max: "100",
     value: "20"
