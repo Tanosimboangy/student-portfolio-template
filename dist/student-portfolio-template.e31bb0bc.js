@@ -29817,7 +29817,7 @@ function Header() {
 
 var _default = Header;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../img/jacquit.jpg":"img/jacquit.jpg"}],"components/Main.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../img/jacquit.jpg":"img/jacquit.jpg"}],"pages/Blog.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29829,13 +29829,147 @@ var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function Blog() {
+  return /*#__PURE__*/_react.default.createElement("div", null);
+}
+
+var _default = Blog;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"pages/Experiences.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Experiences() {
+  return /*#__PURE__*/_react.default.createElement("div", null);
+}
+
+var _default = Experiences;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"pages/Hobbies.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Hobbies() {
+  return /*#__PURE__*/_react.default.createElement("div", null);
+}
+
+var _default = Hobbies;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"pages/Progress.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Progress() {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "progress_container"
+  }, /*#__PURE__*/_react.default.createElement("h2", {
+    className: "progress_heading"
+  }, "FRONT END"), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "progress_lists"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
+    htmlFor: "react"
+  }, "React:"), /*#__PURE__*/_react.default.createElement("progress", {
+    id: "react",
+    max: "100",
+    value: "50"
+  }, " 50% ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
+    htmlFor: "javascript"
+  }, "Javascript:"), /*#__PURE__*/_react.default.createElement("progress", {
+    id: "javascript",
+    max: "100",
+    value: "70"
+  }, " 70% ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
+    htmlFor: "css"
+  }, "CSS:"), /*#__PURE__*/_react.default.createElement("progress", {
+    id: "css",
+    max: "100",
+    value: "80"
+  }, " 80% ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
+    htmlFor: "vue"
+  }, "Vue:"), /*#__PURE__*/_react.default.createElement("progress", {
+    id: "vue",
+    max: "100",
+    value: "40"
+  }, " 40% ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
+    htmlFor: "redux"
+  }, "Redux:"), /*#__PURE__*/_react.default.createElement("progress", {
+    id: "redux",
+    max: "100",
+    value: "10"
+  }, " 10% ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
+    htmlFor: "react_native"
+  }, "React Native:"), /*#__PURE__*/_react.default.createElement("progress", {
+    id: "react_native",
+    max: "100",
+    value: "20"
+  }, " 20% "))));
+}
+
+var _default = Progress;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"components/Main.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _Blog = _interopRequireDefault(require("../pages/Blog"));
+
+var _Experiences = _interopRequireDefault(require("../pages/Experiences"));
+
+var _Hobbies = _interopRequireDefault(require("../pages/Hobbies"));
+
+var _Progress = _interopRequireDefault(require("../pages/Progress"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
 function Main() {
-  return /*#__PURE__*/_react.default.createElement("div", null, "This is for main");
+  return /*#__PURE__*/_react.default.createElement("main", {
+    className: "main"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "first_section"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "first_content--firstsection"
+  }, /*#__PURE__*/_react.default.createElement(_Progress.default, null), /*#__PURE__*/_react.default.createElement(_Hobbies.default, null)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "second_content--firstsection"
+  }, /*#__PURE__*/_react.default.createElement(_Blog.default, null), /*#__PURE__*/_react.default.createElement(_Experiences.default, null))));
 }
 
 var _default = Main;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"components/Footer.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../pages/Blog":"pages/Blog.js","../pages/Experiences":"pages/Experiences.js","../pages/Hobbies":"pages/Hobbies.js","../pages/Progress":"pages/Progress.js"}],"components/Footer.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29848,7 +29982,7 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Footer() {
-  return /*#__PURE__*/_react.default.createElement("div", null, "This is Footer!");
+  return /*#__PURE__*/_react.default.createElement("div", null);
 }
 
 var _default = Footer;
