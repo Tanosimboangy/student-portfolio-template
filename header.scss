@@ -1,0 +1,113 @@
+body {
+    .header_container {
+        .header_profile {
+            padding-bottom: 20px;
+            img {
+                max-width: 40%;
+                border-radius: 12px;
+            }
+        }
+        .personal_details {
+            .personal_description {
+                padding-bottom: 20px;
+                li:first-of-type {
+                    h2 {
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 29px;
+                        color: #4F4F4F;
+                        padding-bottom: 6px;
+                    }
+                }
+                li:last-of-type {
+                    p {
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #828282;
+                    }
+                }
+            }
+            .personal_contact {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                color: #4F4F4F;
+                padding-bottom: 20px;
+                .email_contact {
+                    a {
+                        padding-bottom: 10px;
+                    }
+                }
+                // .phonenumber_contact {
+                //     p {
+                        
+                //     }
+                // }
+            }
+        }
+        .personal_motivation {
+            p {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                color: #828282;
+            }
+        }
+    }
+}
+
+@media(min-width: 720px) {
+    body {
+        .header_container {
+
+            .personal_details {
+                .personal_description {
+                    padding-bottom: 20px;
+                    li:first-of-type {
+                        h2 {
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 29px;
+                            color: #4F4F4F;
+                            padding-bottom: 6px;
+                        }
+                    }
+                    li:last-of-type {
+                        p {
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 22px;
+                            color: #828282;
+                        }
+                    }
+                }
+                .personal_contact {
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #4F4F4F;
+                    padding-bottom: 20px;
+                    .email_contact {
+                        a {
+                            padding-bottom: 10px;
+                        }
+                    }
+                    // .phonenumber_contact {
+                    //     p {
+                            
+                    //     }
+                    // }
+                }
+            }
+            .personal_motivation {
+                p {
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #828282;
+                }
+            }
+        }
+    }
+}

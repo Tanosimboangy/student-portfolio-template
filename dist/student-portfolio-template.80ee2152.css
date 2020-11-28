@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+}
+body ul {
+  padding: 0;
+  margin: 0;
+}
+body ul li {
+  list-style: none;
+}
+body a {
+  text-decoration: none;
+}
+body h1, body h2, body h3, body h4, body h5, body h6, body p {
+  margin: 0;
+}
+
+body .header_container .header_profile {
+  padding-bottom: 20px;
+}
+body .header_container .header_profile img {
+  max-width: 40%;
+  border-radius: 12px;
+}
+body .header_container .personal_details .personal_description {
+  padding-bottom: 20px;
+}
+body .header_container .personal_details .personal_description li:first-of-type h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4F4F4F;
+  padding-bottom: 6px;
+}
+body .header_container .personal_details .personal_description li:last-of-type p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+body .header_container .personal_details .personal_contact {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4F4F4F;
+  padding-bottom: 20px;
+}
+body .header_container .personal_details .personal_contact .email_contact a {
+  padding-bottom: 10px;
+}
+body .header_container .personal_motivation p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+
+@media (min-width: 720px) {
+  body .header_container .personal_details .personal_description {
+    padding-bottom: 20px;
+  }
+  body .header_container .personal_details .personal_description li:first-of-type h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+    padding-bottom: 6px;
+  }
+  body .header_container .personal_details .personal_description li:last-of-type p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+  }
+  body .header_container .personal_details .personal_contact {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+    padding-bottom: 20px;
+  }
+  body .header_container .personal_details .personal_contact .email_contact a {
+    padding-bottom: 10px;
+  }
+  body .header_container .personal_motivation p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+  }
+}
+
+/*# sourceMappingURL=/student-portfolio-template.80ee2152.css.map */
