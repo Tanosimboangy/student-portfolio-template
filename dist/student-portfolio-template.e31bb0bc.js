@@ -29817,7 +29817,7 @@ function Header() {
 
 var _default = Header;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../img/jacquit.jpg":"img/jacquit.jpg"}],"pages/Blog.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../img/jacquit.jpg":"img/jacquit.jpg"}],"elements/Blog.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29846,7 +29846,7 @@ function Blog() {
 
 var _default = Blog;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"pages/Experiences.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"elements/Experiences.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29859,12 +29859,25 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Experiences() {
-  return /*#__PURE__*/_react.default.createElement("div", null);
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "experiences"
+  }, /*#__PURE__*/_react.default.createElement("h2", null, "Eperiences"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "experiences_container"
+  }, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
+    src: "",
+    alt: "adidas"
+  })), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("p", null, "Feb 2017 - Current"), /*#__PURE__*/_react.default.createElement("h3", null, "Front-end developer"), /*#__PURE__*/_react.default.createElement("p", null, "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.")))), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
+    src: "",
+    alt: "HM"
+  })), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("p", null, "Aug 2016 - Feb 2018"), /*#__PURE__*/_react.default.createElement("h3", null, "Full-stack developer"), /*#__PURE__*/_react.default.createElement("p", null, "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.")))), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
+    src: "",
+    alt: "NIVEA"
+  })), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("p", null, "Jun 2015 - Aug 2016"), /*#__PURE__*/_react.default.createElement("h3", null, "Junior front-end developer"), /*#__PURE__*/_react.default.createElement("p", null, "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."))))));
 }
 
 var _default = Experiences;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"pages/Hobbies.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"elements/Hobbies.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29901,7 +29914,7 @@ function Hobbies() {
 
 var _default = Hobbies;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"pages/Progress.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"elements/Progress.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29920,46 +29933,216 @@ function Progress() {
     className: "progress_heading"
   }, "FRONT END"), /*#__PURE__*/_react.default.createElement("ul", {
     className: "progress_lists"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", {
+    className: "progress_elements"
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "react"
-  }, "React: "), /*#__PURE__*/_react.default.createElement("progress", {
+  }, "React: ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("progress", {
     id: "react",
     max: "100",
     value: "50"
-  }, " 50% ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
+  }, " 50% ")))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", {
+    className: "progress_elements"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "javascript"
-  }, "Javascript: "), /*#__PURE__*/_react.default.createElement("progress", {
+  }, "Javascript: ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("progress", {
     id: "javascript",
     max: "100",
     value: "70"
-  }, " 70% ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
+  }, " 70% ")))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", {
+    className: "progress_elements"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "css"
-  }, "CSS: "), /*#__PURE__*/_react.default.createElement("progress", {
+  }, "CSS: ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("progress", {
     id: "css",
     max: "100",
     value: "80"
-  }, " 80% ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
+  }, " 80% ")))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", {
+    className: "progress_elements"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "vue"
-  }, "Vue: "), /*#__PURE__*/_react.default.createElement("progress", {
+  }, "Vue: ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("progress", {
     id: "vue",
     max: "100",
     value: "40"
-  }, " 40% ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
+  }, " 40% ")))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", {
+    className: "progress_elements"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "redux"
-  }, "Redux: "), /*#__PURE__*/_react.default.createElement("progress", {
+  }, "Redux: ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("progress", {
     id: "redux",
     max: "100",
     value: "10"
-  }, " 10% ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
+  }, " 10% ")))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", {
+    className: "progress_elements"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "react_native"
-  }, "React Native: "), /*#__PURE__*/_react.default.createElement("progress", {
+  }, "React Native: ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("progress", {
     id: "react_native",
     max: "100",
     value: "20"
-  }, " 20% "))));
+  }, " 20% "))))));
 }
 
 var _default = Progress;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"elements/Receipeblog.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Receipeblog() {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "responsive_blog"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "responsive_image",
+    src: "",
+    alt: "receipe_blog"
+  }), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "three_basics"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+  }, "#HTML")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  }, "#CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://www.udemy.com/course/complete-responsive-website-design-from-scratch/?utm_source=adwords&utm_medium=udemyads&utm_campaign=WebDevelopment_v.PROF_la.EN_cc.ROW_ti.8322&utm_content=deal4584&utm_term=_._ag_80385735355_._ad_437497334067_._kw__._de_c_._dm__._pl__._ti_dsa-774930032289_._li_1009994_._pd__._&matchtype=b&gclid=Cj0KCQiAh4j-BRCsARIsAGeV12CqCEkTFtPTMVO7kHjQlTSbsBq6wJtnaAOdZxp1gqjVVH_-v7A8JxkaAo1OEALw_wcB"
+  }, "#responsive"))), /*#__PURE__*/_react.default.createElement("h3", null, "Receipe Blog"), /*#__PURE__*/_react.default.createElement("p", null, "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io"), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "buttons_container"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
+    type: "button"
+  }, "Demo")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
+    type: "button"
+  }, "Code"))));
+}
+
+var _default = Receipeblog;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"elements/Mygallery.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Mygallery() {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "responsive_gallery"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "responsive_image",
+    src: "",
+    alt: "gallery"
+  }), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "three_basics"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+  }, "#HTML")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  }, "#CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://www.udemy.com/course/complete-responsive-website-design-from-scratch/?utm_source=adwords&utm_medium=udemyads&utm_campaign=WebDevelopment_v.PROF_la.EN_cc.ROW_ti.8322&utm_content=deal4584&utm_term=_._ag_80385735355_._ad_437497334067_._kw__._de_c_._dm__._pl__._ti_dsa-774930032289_._li_1009994_._pd__._&matchtype=b&gclid=Cj0KCQiAh4j-BRCsARIsAGeV12CqCEkTFtPTMVO7kHjQlTSbsBq6wJtnaAOdZxp1gqjVVH_-v7A8JxkaAo1OEALw_wcB"
+  }, "#responsive"))), /*#__PURE__*/_react.default.createElement("h3", null, "My Gallery"), /*#__PURE__*/_react.default.createElement("p", null, "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io"), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "buttons_container"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
+    type: "button"
+  }, "Demo")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
+    type: "button"
+  }, "Code"))));
+}
+
+var _default = Mygallery;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"elements/Checkout.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Checkout() {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "responsive_checkout"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "responsive_image",
+    src: "",
+    alt: "checkout"
+  }), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "three_basics"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+  }, "#HTML")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  }, "#CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://www.udemy.com/course/complete-responsive-website-design-from-scratch/?utm_source=adwords&utm_medium=udemyads&utm_campaign=WebDevelopment_v.PROF_la.EN_cc.ROW_ti.8322&utm_content=deal4584&utm_term=_._ag_80385735355_._ad_437497334067_._kw__._de_c_._dm__._pl__._ti_dsa-774930032289_._li_1009994_._pd__._&matchtype=b&gclid=Cj0KCQiAh4j-BRCsARIsAGeV12CqCEkTFtPTMVO7kHjQlTSbsBq6wJtnaAOdZxp1gqjVVH_-v7A8JxkaAo1OEALw_wcB"
+  }, "#responsive"))), /*#__PURE__*/_react.default.createElement("h3", null, "Ckeckout"), /*#__PURE__*/_react.default.createElement("p", null, "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io"), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "buttons_container"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
+    type: "button"
+  }, "Demo")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
+    type: "button"
+  }, "Code"))));
+}
+
+var _default = Checkout;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"elements/Demo.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Receipeblog = _interopRequireDefault(require("../elements/Receipeblog"));
+
+var _Mygallery = _interopRequireDefault(require("../elements/Mygallery"));
+
+var _Checkout = _interopRequireDefault(require("../elements/Checkout"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Demo() {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_Receipeblog.default, null), /*#__PURE__*/_react.default.createElement(_Mygallery.default, null), /*#__PURE__*/_react.default.createElement(_Checkout.default, null));
+}
+
+var _default = Demo;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../elements/Receipeblog":"elements/Receipeblog.js","../elements/Mygallery":"elements/Mygallery.js","../elements/Checkout":"elements/Checkout.js"}],"elements/Projexts.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Projexts() {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("h2", null, "Projects (3)"), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "projects_options"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", null, "React")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", null, "Vue")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", null, "Responsive"))));
+}
+
+var _default = Projexts;
 exports.default = _default;
 },{"react":"node_modules/react/index.js"}],"components/Main.js":[function(require,module,exports) {
 "use strict";
@@ -29969,21 +30152,21 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _react = _interopRequireWildcard(require("react"));
+var _react = _interopRequireDefault(require("react"));
 
-var _Blog = _interopRequireDefault(require("../pages/Blog"));
+var _Blog = _interopRequireDefault(require("../elements/Blog"));
 
-var _Experiences = _interopRequireDefault(require("../pages/Experiences"));
+var _Experiences = _interopRequireDefault(require("../elements/Experiences"));
 
-var _Hobbies = _interopRequireDefault(require("../pages/Hobbies"));
+var _Hobbies = _interopRequireDefault(require("../elements/Hobbies"));
 
-var _Progress = _interopRequireDefault(require("../pages/Progress"));
+var _Progress = _interopRequireDefault(require("../elements/Progress"));
+
+var _Demo = _interopRequireDefault(require("../elements/Demo"));
+
+var _Projexts = _interopRequireDefault(require("../elements/Projexts"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
 function Main() {
   return /*#__PURE__*/_react.default.createElement("main", {
@@ -29994,12 +30177,14 @@ function Main() {
     className: "first_content--firstsection"
   }, /*#__PURE__*/_react.default.createElement(_Progress.default, null), /*#__PURE__*/_react.default.createElement(_Hobbies.default, null)), /*#__PURE__*/_react.default.createElement("div", {
     className: "second_content--firstsection"
-  }, /*#__PURE__*/_react.default.createElement(_Blog.default, null), /*#__PURE__*/_react.default.createElement(_Experiences.default, null))));
+  }, /*#__PURE__*/_react.default.createElement(_Blog.default, null), /*#__PURE__*/_react.default.createElement(_Experiences.default, null))), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Projexts.default, null)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "demo_section"
+  }, /*#__PURE__*/_react.default.createElement(_Demo.default, null)));
 }
 
 var _default = Main;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../pages/Blog":"pages/Blog.js","../pages/Experiences":"pages/Experiences.js","../pages/Hobbies":"pages/Hobbies.js","../pages/Progress":"pages/Progress.js"}],"components/Footer.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../elements/Blog":"elements/Blog.js","../elements/Experiences":"elements/Experiences.js","../elements/Hobbies":"elements/Hobbies.js","../elements/Progress":"elements/Progress.js","../elements/Demo":"elements/Demo.js","../elements/Projexts":"elements/Projexts.js"}],"components/Footer.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {

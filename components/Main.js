@@ -1,8 +1,10 @@
-import React, { Fragment } from 'react'
-import Blog from "../pages/Blog";
-import Experiences from "../pages/Experiences";
-import Hobbies from "../pages/Hobbies";
-import Progress from "../pages/Progress";
+import React from 'react'
+import Blog from "../elements/Blog";
+import Experiences from "../elements/Experiences";
+import Hobbies from "../elements/Hobbies";
+import Progress from "../elements/Progress";
+import Demo from "../elements/Demo";
+import Projects from "../elements/Projexts";
 
 function Main() {
     return (
@@ -16,6 +18,12 @@ function Main() {
                     <Blog />
                     <Experiences />
                 </div>
+            </div>
+            <div>
+                <Projects />
+            </div>
+            <div className="demo_section">
+                <Demo />
             </div>
         </main>
     )
