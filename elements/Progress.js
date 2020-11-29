@@ -25,20 +25,14 @@ function Progress() {
                 </li>
                 <li>
                     <ul className="progress_elements">
-                        <li><label htmlFor="vue">Vue: </label></li>
-                        <li><progress className="progress" id="vue" max="100" value="80"> 80% </progress></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul className="progress_elements">
                         <li><label htmlFor="redux">Redux: </label></li>
-                        <li><progress className="progress" id="redux" max="100" value="10"> 10% </progress></li>
+                        <li><progress className="progress" id="redux" max="100" value="5"> 5% </progress></li>
                     </ul>
                 </li>
                 <li>
                     <ul className="progress_elements">
                         <li><label htmlFor="react_native">React Native: </label></li>
-                        <li><progress className="progress" id="react_native" max="100" value="20"> 20% </progress></li>
+                        <li><progress className="progress" id="react_native" max="100" value="6"> 6% </progress></li>
                     </ul>
                 </li>
             </ul>

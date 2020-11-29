@@ -29907,8 +29907,12 @@ function Experiences() {
 
 var _default = Experiences;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"img/game.webp":[function(require,module,exports) {
-module.exports = "/game.e8918784.webp";
+},{"react":"node_modules/react/index.js"}],"img/GamingBrowser.png":[function(require,module,exports) {
+module.exports = "/GamingBrowser.e1813a90.png";
+},{}],"img/reading-book.jpg":[function(require,module,exports) {
+module.exports = "/reading-book.e2933002.jpg";
+},{}],"img/listening.jpg":[function(require,module,exports) {
+module.exports = "/listening.242eeb52.jpg";
 },{}],"elements/Hobbies.js":[function(require,module,exports) {
 "use strict";
 
@@ -29919,7 +29923,11 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _game = _interopRequireDefault(require("../img/game.webp"));
+var _GamingBrowser = _interopRequireDefault(require("../img/GamingBrowser.png"));
+
+var _readingBook = _interopRequireDefault(require("../img/reading-book.jpg"));
+
+var _listening = _interopRequireDefault(require("../img/listening.jpg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29931,24 +29939,24 @@ function Hobbies() {
   }, "Hobbies"), /*#__PURE__*/_react.default.createElement("article", {
     className: "music_article"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _game.default,
+    src: _GamingBrowser.default,
     alt: "music"
   }), /*#__PURE__*/_react.default.createElement("h3", null, "Game"), /*#__PURE__*/_react.default.createElement("p", null, "Have fun in your life.")), /*#__PURE__*/_react.default.createElement("article", {
-    className: "cooking_article"
+    className: "reading_article"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    src: "",
-    alt: "cooking"
-  }), /*#__PURE__*/_react.default.createElement("h3", null, "washing"), /*#__PURE__*/_react.default.createElement("p", null, "Take care of yourself very well.")), /*#__PURE__*/_react.default.createElement("article", {
-    className: "biking_article"
+    src: _readingBook.default,
+    alt: "reading"
+  }), /*#__PURE__*/_react.default.createElement("h3", null, "Reading"), /*#__PURE__*/_react.default.createElement("p", null, "Let\u2019s be reasonable and add an eighth day to the week that is devoted exclusively to reading.")), /*#__PURE__*/_react.default.createElement("article", {
+    className: "listening_article"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    src: "",
-    alt: "biking"
-  }), /*#__PURE__*/_react.default.createElement("h3", null, "Running"), /*#__PURE__*/_react.default.createElement("p", null, "Enjoy your time for practicing sport, as well as keeping yoursel healthy.")));
+    src: _listening.default,
+    alt: "listening"
+  }), /*#__PURE__*/_react.default.createElement("h3", null, "Listening"), /*#__PURE__*/_react.default.createElement("p", null, "Give yourself some time for listening.")));
 }
 
 var _default = Hobbies;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../img/game.webp":"img/game.webp"}],"elements/Progress.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../img/GamingBrowser.png":"img/GamingBrowser.png","../img/reading-book.jpg":"img/reading-book.jpg","../img/listening.jpg":"img/listening.jpg"}],"elements/Progress.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29997,22 +30005,13 @@ function Progress() {
   }, " 80% ")))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", {
     className: "progress_elements"
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
-    htmlFor: "vue"
-  }, "Vue: ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("progress", {
-    className: "progress",
-    id: "vue",
-    max: "100",
-    value: "80"
-  }, " 80% ")))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", {
-    className: "progress_elements"
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "redux"
   }, "Redux: ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("progress", {
     className: "progress",
     id: "redux",
     max: "100",
-    value: "10"
-  }, " 10% ")))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", {
+    value: "5"
+  }, " 5% ")))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", {
     className: "progress_elements"
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: "react_native"
@@ -30020,8 +30019,8 @@ function Progress() {
     className: "progress",
     id: "react_native",
     max: "100",
-    value: "20"
-  }, " 20% "))))));
+    value: "6"
+  }, " 6% "))))));
 }
 
 var _default = Progress;
@@ -30306,7 +30305,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53547" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49806" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
