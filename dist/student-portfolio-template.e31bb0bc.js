@@ -29847,7 +29847,9 @@ function Header() {
 
 var _default = Header;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../img/jacquit.jpg":"img/jacquit.jpg","../img/email.svg":"img/email.svg","../img/phone.svg":"img/phone.svg"}],"elements/Blog.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../img/jacquit.jpg":"img/jacquit.jpg","../img/email.svg":"img/email.svg","../img/phone.svg":"img/phone.svg"}],"img/GamingBrowser.png":[function(require,module,exports) {
+module.exports = "/GamingBrowser.e1813a90.png";
+},{}],"elements/Blog.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29857,6 +29859,8 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+var _GamingBrowser = _interopRequireDefault(require("../img/GamingBrowser.png"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Blog() {
@@ -29864,8 +29868,8 @@ function Blog() {
     className: "blog_section"
   }, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("ul", {
     className: "blog_heading"
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h2", null, "Blog"), /*#__PURE__*/_react.default.createElement("h3", null, "How to organize your CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
-    src: "",
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h2", null, "Blog"), /*#__PURE__*/_react.default.createElement("h3", null, "Organize your CODE")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
+    src: _GamingBrowser.default,
     alt: "best design"
   }))), /*#__PURE__*/_react.default.createElement("ul", {
     className: "blog_paragraph--lists"
@@ -29876,7 +29880,7 @@ function Blog() {
 
 var _default = Blog;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"elements/Progress.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../img/GamingBrowser.png":"img/GamingBrowser.png"}],"elements/Progress.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -30139,7 +30143,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55599" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55866" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

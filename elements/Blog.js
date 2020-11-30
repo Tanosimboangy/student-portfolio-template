@@ -1,4 +1,5 @@
 import React from 'react'
+import GamingBrowser from '../img/GamingBrowser.png'
 
 function Blog() {
     return (
@@ -7,10 +8,10 @@ function Blog() {
                 <ul className="blog_heading">
                     <li>
                         <h2>Blog</h2>
-                        <h3>How to organize your CSS</h3>
+                        <h3>Organize your CODE</h3>
                     </li>
                     <li>
-                        <img src="" alt="best design"/>
+                        <img src={GamingBrowser} alt="best design"/>
                     </li>
                 </ul>
                 <ul className="blog_paragraph--lists">

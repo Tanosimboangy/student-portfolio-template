@@ -1,10 +1,37 @@
 .blog_section {
     padding: 16px;
     background-color: white;
+    border-radius: 12px;
     article {
         .blog_heading {
-            li:fi {
-
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            padding-bottom: 50px;
+            li:first-of-type {
+                h2 {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #E0E0E0;
+                    padding-top: 20;
+                    padding-bottom: 20px;
+                }
+                h3 {
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #333333;
+                    padding-bottom: 20px;
+                }
+            }
+            li:last-of-type {
+                img {
+                    max-width: 40vw;
+                    border-radius: 12px;
+                }
             }
         }
     }
