@@ -211,37 +211,9 @@ body .header_container .personal_motivation p {
   padding-bottom: 5px;
 }
 
-.hobbies {
+.blog_section {
   padding: 16px;
-  background-color: #FFFF;
-  border-radius: 12px;
-  color: #4F4F4F;
-}
-.hobbies .hobbies_heading {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  padding-left: 6px;
-  padding-top: 6px;
-  padding-bottom: 30px;
-}
-.hobbies article img {
-  max-width: 60%;
-  border-radius: 8px;
-  box-shadow: 1px 1px 5px black;
-}
-.hobbies article h3 {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  padding-bottom: 10px;
-}
-.hobbies article p {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #828282;
-  padding-bottom: 30px;
+  background-color: white;
 }
 
 /*# sourceMappingURL=/student-portfolio-template.80ee2152.css.map */

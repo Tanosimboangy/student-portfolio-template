@@ -29861,7 +29861,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function Blog() {
   return /*#__PURE__*/_react.default.createElement("div", {
-    className: "blog"
+    className: "blog_section"
   }, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("ul", {
     className: "blog_heading"
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h2", null, "Blog"), /*#__PURE__*/_react.default.createElement("h3", null, "How to organize your CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
@@ -29876,87 +29876,7 @@ function Blog() {
 
 var _default = Blog;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"elements/Experiences.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Experiences() {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "experiences"
-  }, /*#__PURE__*/_react.default.createElement("h2", null, "Eperiences"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "experiences_container"
-  }, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
-    src: "",
-    alt: "adidas"
-  })), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("p", null, "Feb 2017 - Current"), /*#__PURE__*/_react.default.createElement("h3", null, "Front-end developer"), /*#__PURE__*/_react.default.createElement("p", null, "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.")))), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
-    src: "",
-    alt: "HM"
-  })), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("p", null, "Aug 2016 - Feb 2018"), /*#__PURE__*/_react.default.createElement("h3", null, "Full-stack developer"), /*#__PURE__*/_react.default.createElement("p", null, "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.")))), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
-    src: "",
-    alt: "NIVEA"
-  })), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("p", null, "Jun 2015 - Aug 2016"), /*#__PURE__*/_react.default.createElement("h3", null, "Junior front-end developer"), /*#__PURE__*/_react.default.createElement("p", null, "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."))))));
-}
-
-var _default = Experiences;
-exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"img/GamingBrowser.png":[function(require,module,exports) {
-module.exports = "/GamingBrowser.e1813a90.png";
-},{}],"img/reading-book.jpg":[function(require,module,exports) {
-module.exports = "/reading-book.e2933002.jpg";
-},{}],"img/listening.jpg":[function(require,module,exports) {
-module.exports = "/listening.242eeb52.jpg";
-},{}],"elements/Hobbies.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _GamingBrowser = _interopRequireDefault(require("../img/GamingBrowser.png"));
-
-var _readingBook = _interopRequireDefault(require("../img/reading-book.jpg"));
-
-var _listening = _interopRequireDefault(require("../img/listening.jpg"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Hobbies() {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "hobbies"
-  }, /*#__PURE__*/_react.default.createElement("h2", {
-    className: "hobbies_heading"
-  }, "Hobbies"), /*#__PURE__*/_react.default.createElement("article", {
-    className: "music_article"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _GamingBrowser.default,
-    alt: "music"
-  }), /*#__PURE__*/_react.default.createElement("h3", null, "Game"), /*#__PURE__*/_react.default.createElement("p", null, "Have fun in your life.")), /*#__PURE__*/_react.default.createElement("article", {
-    className: "reading_article"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _readingBook.default,
-    alt: "reading"
-  }), /*#__PURE__*/_react.default.createElement("h3", null, "Reading"), /*#__PURE__*/_react.default.createElement("p", null, "Let\u2019s be reasonable and add an eighth day to the week that is devoted exclusively to reading.")), /*#__PURE__*/_react.default.createElement("article", {
-    className: "listening_article"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _listening.default,
-    alt: "listening"
-  }), /*#__PURE__*/_react.default.createElement("h3", null, "Listening"), /*#__PURE__*/_react.default.createElement("p", null, "Give yourself some time for listening.")));
-}
-
-var _default = Hobbies;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../img/GamingBrowser.png":"img/GamingBrowser.png","../img/reading-book.jpg":"img/reading-book.jpg","../img/listening.jpg":"img/listening.jpg"}],"elements/Progress.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"elements/Progress.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -30025,7 +29945,42 @@ function Progress() {
 
 var _default = Progress;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"elements/Receipeblog.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"data.json":[function(require,module,exports) {
+module.exports = [{
+  "img": "",
+  "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+  "title": "jacquit",
+  "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas fuga a iste illum sequi ea, repudiandae delectus veritatis dicta?",
+  "demo": "demo",
+  "code": "code",
+  "id": "1606708578697",
+  "type": "react"
+}, {
+  "img": "",
+  "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+  "title": "Jacquit",
+  "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas fuga a iste illum sequi ea, repudiandae delectus veritatis dicta?",
+  "demo": "demo",
+  "code": "code",
+  "id": "1606708238697",
+  "type": "html&css"
+}, {
+  "img": "",
+  "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+  "title": "jacquit",
+  "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas fuga a iste illum sequi ea, repudiandae delectus veritatis dicta?",
+  "demo": "demo",
+  "code": "code",
+  "id": "1646708538697",
+  "type": "react"
+}];
+},{}],"elements/Demo.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -30035,155 +29990,44 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Receipeblog() {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "responsive_blog"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "responsive_image",
-    src: "",
-    alt: "receipe_blog"
-  }), /*#__PURE__*/_react.default.createElement("ul", {
-    className: "three_basics"
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
-    href: "https://developer.mozilla.org/en-US/docs/Web/HTML"
-  }, "#HTML")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
-    href: "https://developer.mozilla.org/en-US/docs/Web/CSS"
-  }, "#CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
-    href: "https://www.udemy.com/course/complete-responsive-website-design-from-scratch/?utm_source=adwords&utm_medium=udemyads&utm_campaign=WebDevelopment_v.PROF_la.EN_cc.ROW_ti.8322&utm_content=deal4584&utm_term=_._ag_80385735355_._ad_437497334067_._kw__._de_c_._dm__._pl__._ti_dsa-774930032289_._li_1009994_._pd__._&matchtype=b&gclid=Cj0KCQiAh4j-BRCsARIsAGeV12CqCEkTFtPTMVO7kHjQlTSbsBq6wJtnaAOdZxp1gqjVVH_-v7A8JxkaAo1OEALw_wcB"
-  }, "#responsive"))), /*#__PURE__*/_react.default.createElement("h3", null, "Receipe Blog"), /*#__PURE__*/_react.default.createElement("p", null, "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io"), /*#__PURE__*/_react.default.createElement("ul", {
-    className: "buttons_container"
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
-    type: "button"
-  }, "Demo")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
-    type: "button"
-  }, "Code"))));
-}
-
-var _default = Receipeblog;
-exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"elements/Mygallery.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Mygallery() {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "responsive_gallery"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "responsive_image",
-    src: "",
-    alt: "gallery"
-  }), /*#__PURE__*/_react.default.createElement("ul", {
-    className: "three_basics"
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
-    href: "https://developer.mozilla.org/en-US/docs/Web/HTML"
-  }, "#HTML")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
-    href: "https://developer.mozilla.org/en-US/docs/Web/CSS"
-  }, "#CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
-    href: "https://www.udemy.com/course/complete-responsive-website-design-from-scratch/?utm_source=adwords&utm_medium=udemyads&utm_campaign=WebDevelopment_v.PROF_la.EN_cc.ROW_ti.8322&utm_content=deal4584&utm_term=_._ag_80385735355_._ad_437497334067_._kw__._de_c_._dm__._pl__._ti_dsa-774930032289_._li_1009994_._pd__._&matchtype=b&gclid=Cj0KCQiAh4j-BRCsARIsAGeV12CqCEkTFtPTMVO7kHjQlTSbsBq6wJtnaAOdZxp1gqjVVH_-v7A8JxkaAo1OEALw_wcB"
-  }, "#responsive"))), /*#__PURE__*/_react.default.createElement("h3", null, "My Gallery"), /*#__PURE__*/_react.default.createElement("p", null, "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io"), /*#__PURE__*/_react.default.createElement("ul", {
-    className: "buttons_container"
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
-    type: "button"
-  }, "Demo")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
-    type: "button"
-  }, "Code"))));
-}
-
-var _default = Mygallery;
-exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"elements/Checkout.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Checkout() {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "responsive_checkout"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "responsive_image",
-    src: "",
-    alt: "checkout"
-  }), /*#__PURE__*/_react.default.createElement("ul", {
-    className: "three_basics"
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
-    href: "https://developer.mozilla.org/en-US/docs/Web/HTML"
-  }, "#HTML")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
-    href: "https://developer.mozilla.org/en-US/docs/Web/CSS"
-  }, "#CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
-    href: "https://www.udemy.com/course/complete-responsive-website-design-from-scratch/?utm_source=adwords&utm_medium=udemyads&utm_campaign=WebDevelopment_v.PROF_la.EN_cc.ROW_ti.8322&utm_content=deal4584&utm_term=_._ag_80385735355_._ad_437497334067_._kw__._de_c_._dm__._pl__._ti_dsa-774930032289_._li_1009994_._pd__._&matchtype=b&gclid=Cj0KCQiAh4j-BRCsARIsAGeV12CqCEkTFtPTMVO7kHjQlTSbsBq6wJtnaAOdZxp1gqjVVH_-v7A8JxkaAo1OEALw_wcB"
-  }, "#responsive"))), /*#__PURE__*/_react.default.createElement("h3", null, "Ckeckout"), /*#__PURE__*/_react.default.createElement("p", null, "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io"), /*#__PURE__*/_react.default.createElement("ul", {
-    className: "buttons_container"
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
-    type: "button"
-  }, "Demo")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
-    type: "button"
-  }, "Code"))));
-}
-
-var _default = Checkout;
-exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"elements/Demo.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Receipeblog = _interopRequireDefault(require("../elements/Receipeblog"));
-
-var _Mygallery = _interopRequireDefault(require("../elements/Mygallery"));
-
-var _Checkout = _interopRequireDefault(require("../elements/Checkout"));
+var _data = _interopRequireDefault(require("../data.json"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Demo() {
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_Receipeblog.default, null), /*#__PURE__*/_react.default.createElement(_Mygallery.default, null), /*#__PURE__*/_react.default.createElement(_Checkout.default, null));
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h2", null, "Projects (3)"), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "projects_options"
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", null, "React")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", null, "Vue")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", null, "Responsive")))), _data.default.map(function (item) {
+    return /*#__PURE__*/_react.default.createElement("div", {
+      className: "responsive_blog",
+      key: item.id
+    }, /*#__PURE__*/_react.default.createElement("img", {
+      className: "responsive_image",
+      src: "",
+      alt: "receipe_blog"
+    }), /*#__PURE__*/_react.default.createElement("ul", {
+      className: "three_basics"
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: item.html
+    }, "HTML")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: item.css
+    }, "CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: item.javascript
+    }, "JAVASCRIPT"))), /*#__PURE__*/_react.default.createElement("h3", {
+      className: "heading"
+    }, item.title), /*#__PURE__*/_react.default.createElement("p", null, item.description), /*#__PURE__*/_react.default.createElement("ul", {
+      className: "buttons_container"
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
+      type: "demo_button"
+    }, item.demo)), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
+      type: "code_button"
+    }, item.code))));
+  }));
 }
 
 var _default = Demo;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../elements/Receipeblog":"elements/Receipeblog.js","../elements/Mygallery":"elements/Mygallery.js","../elements/Checkout":"elements/Checkout.js"}],"elements/Projexts.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Projexts() {
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("h2", null, "Projects (3)"), /*#__PURE__*/_react.default.createElement("ul", {
-    className: "projects_options"
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", null, "React")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", null, "Vue")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", null, "Responsive"))));
-}
-
-var _default = Projexts;
-exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"components/Main.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../data.json":"data.json"}],"components/Main.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -30195,15 +30039,9 @@ var _react = _interopRequireDefault(require("react"));
 
 var _Blog = _interopRequireDefault(require("../elements/Blog"));
 
-var _Experiences = _interopRequireDefault(require("../elements/Experiences"));
-
-var _Hobbies = _interopRequireDefault(require("../elements/Hobbies"));
-
 var _Progress = _interopRequireDefault(require("../elements/Progress"));
 
 var _Demo = _interopRequireDefault(require("../elements/Demo"));
-
-var _Projexts = _interopRequireDefault(require("../elements/Projexts"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30212,18 +30050,14 @@ function Main() {
     className: "main"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "first_section"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "first_content--firstsection"
-  }, /*#__PURE__*/_react.default.createElement(_Progress.default, null), /*#__PURE__*/_react.default.createElement(_Hobbies.default, null)), /*#__PURE__*/_react.default.createElement("div", {
-    className: "second_content--firstsection"
-  }, /*#__PURE__*/_react.default.createElement(_Blog.default, null), /*#__PURE__*/_react.default.createElement(_Experiences.default, null))), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Projexts.default, null)), /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement(_Progress.default, null), /*#__PURE__*/_react.default.createElement(_Blog.default, null)), /*#__PURE__*/_react.default.createElement("div", {
     className: "demo_section"
   }, /*#__PURE__*/_react.default.createElement(_Demo.default, null)));
 }
 
 var _default = Main;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../elements/Blog":"elements/Blog.js","../elements/Experiences":"elements/Experiences.js","../elements/Hobbies":"elements/Hobbies.js","../elements/Progress":"elements/Progress.js","../elements/Demo":"elements/Demo.js","../elements/Projexts":"elements/Projexts.js"}],"components/Footer.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../elements/Blog":"elements/Blog.js","../elements/Progress":"elements/Progress.js","../elements/Demo":"elements/Demo.js"}],"components/Footer.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -30305,7 +30139,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49806" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55599" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
