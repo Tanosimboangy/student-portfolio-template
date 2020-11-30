@@ -10,12 +10,7 @@ function Blog() {
                         <h2>Blog</h2>
                         <h3>Organize your CODE</h3>
                     </li>
-                    <li>
-                        <img src={GamingBrowser} alt="best design"/>
-                    </li>
-                </ul>
-                <ul className="blog_paragraph--lists">
-                    <li>
+                    <li className="blog_paragraph--lists">
                         <p>
                             In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.  
                         </p>
@@ -25,8 +20,11 @@ function Blog() {
                             Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.
                         </p>
                     </li>
+                    <li>
+                        <a href="https://devchallenges.io/">dev.to</a>
+                    </li>
                 </ul>
-                <a href="https://devchallenges.io/">dev.to</a>
+                <img src={GamingBrowser} alt="best design"/>
             </article>
         </div>
     )

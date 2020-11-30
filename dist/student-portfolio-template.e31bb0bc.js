@@ -29868,14 +29868,14 @@ function Blog() {
     className: "blog_section"
   }, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("ul", {
     className: "blog_heading"
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h2", null, "Blog"), /*#__PURE__*/_react.default.createElement("h3", null, "Organize your CODE")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h2", null, "Blog"), /*#__PURE__*/_react.default.createElement("h3", null, "Organize your CODE")), /*#__PURE__*/_react.default.createElement("li", {
+    className: "blog_paragraph--lists"
+  }, /*#__PURE__*/_react.default.createElement("p", null, "In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("p", null, "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://devchallenges.io/"
+  }, "dev.to"))), /*#__PURE__*/_react.default.createElement("img", {
     src: _GamingBrowser.default,
     alt: "best design"
-  }))), /*#__PURE__*/_react.default.createElement("ul", {
-    className: "blog_paragraph--lists"
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("p", null, "In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("p", null, "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."))), /*#__PURE__*/_react.default.createElement("a", {
-    href: "https://devchallenges.io/"
-  }, "dev.to")));
+  })));
 }
 
 var _default = Blog;
@@ -30143,7 +30143,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55866" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63459" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
