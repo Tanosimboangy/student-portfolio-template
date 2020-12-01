@@ -7,8 +7,15 @@ function Blog() {
             <article>
                 <ul className="blog_heading">
                     <li>
-                        <h2>Blog</h2>
-                        <h3>Organize your CODE</h3>
+                        <ul>
+                            <li>
+                                <h2>Blog</h2>
+                                <h3>Organize your CODE</h3>
+                            </li>
+                            <li>
+                                <img className="best_design" src={GamingBrowser} alt="best design"/>
+                            </li>
+                        </ul>
                     </li>
                     <li className="blog_paragraph--lists">
                         <p>
@@ -24,7 +31,6 @@ function Blog() {
                         <a href="https://devchallenges.io/">dev.to</a>
                     </li>
                 </ul>
-                <img src={GamingBrowser} alt="best design"/>
             </article>
         </div>
     )

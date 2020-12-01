@@ -216,17 +216,16 @@ body .header_container .personal_motivation p {
   background-color: white;
   border-radius: 12px;
 }
-.blog_section article {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
 .blog_section article .blog_heading {
   padding-bottom: 50px;
 }
-.blog_section article .blog_heading li:first-of-type h2 {
+.blog_section article .blog_heading li:first-of-type ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.blog_section article .blog_heading li:first-of-type ul li:first-of-type h2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -234,12 +233,16 @@ body .header_container .personal_motivation p {
   padding-top: 20;
   padding-bottom: 20px;
 }
-.blog_section article .blog_heading li:first-of-type h3 {
+.blog_section article .blog_heading li:first-of-type ul li:first-of-type h3 {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
   color: #333333;
   padding-bottom: 20px;
+}
+.blog_section article .blog_heading li:first-of-type ul li:nth-of-type(2) img {
+  max-width: 35vw;
+  border-radius: 12px;
 }
 .blog_section article .blog_heading li:nth-of-type(2) {
   padding-bottom: 20px;
@@ -255,10 +258,6 @@ body .header_container .personal_motivation p {
   font-size: 16px;
   line-height: 20px;
   color: #828282;
-}
-.blog_section article img {
-  max-width: 30vw;
-  border-radius: 12px;
 }
 
 /*# sourceMappingURL=/student-portfolio-template.80ee2152.css.map */
