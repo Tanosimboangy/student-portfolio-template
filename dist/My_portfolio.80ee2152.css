@@ -10,6 +10,14 @@
   font-family: "Montserrat_Bold";
   src: local(Montserrat_Bold), url(/Montserrat_Bold.4ccf02a8.woff2) format("woff2"), url(/Montserrat_Bold.a89e8958.woff) format("woff");
 }
+@font-face {
+  font-family: "Lato_bold";
+  src: local(Lato), url(/Lato-Bold.a497623e.woff2) format("woff2"), url(/Lato-Bold.2ba61289.woff) format("woff");
+}
+@font-face {
+  font-family: "Lato";
+  src: local(Lato), url(/Lato-Regular.1c034558.woff2) format("woff2"), url(/Lato-Regular.5200f20d.woff) format("woff");
+}
 body {
   margin: 0;
   font-family: "Montserrat_Regular";
@@ -51,6 +59,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p {
   background-color: #32067c;
   padding: 16px;
   margin-bottom: 60px;
+  font-style: normal;
 }
 .header .header_container {
   display: flex;
@@ -62,12 +71,8 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p {
   margin: 0;
   padding-top: 40px;
   padding-bottom: 40px;
-}
-.header .header_container h2 a {
-  text-decoration: none;
-  font-family: "Lato_bold";
+  font-family: "Lato";
   font-size: 40px;
-  font-weight: 600;
   color: white;
 }
 .header .header_container input {
@@ -112,10 +117,14 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p {
   font-weight: bold;
 }
 .header .header_container input:checked ~ nav ul li a:hover svg {
-  fill: orangered;
+  fill: white;
 }
 
 @media (min-width: 720px) {
+  .header .header_container {
+    max-width: 80%;
+    margin: auto;
+  }
   .header .header_container svg {
     display: none;
   }

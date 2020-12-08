@@ -29793,9 +29793,7 @@ function Header() {
     className: "header_container"
   }, /*#__PURE__*/_react.default.createElement("h2", {
     className: "header_logo"
-  }, /*#__PURE__*/_react.default.createElement("a", {
-    href: "./jacquit"
-  }, "My Portfolio")), /*#__PURE__*/_react.default.createElement("svg", {
+  }, "My Portfolio"), /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     height: "30",
     fill: "white",
@@ -29811,25 +29809,6 @@ function Header() {
   }), /*#__PURE__*/_react.default.createElement("nav", {
     className: "header_navigation"
   }, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", {
-    className: "header_navigation--portfolio"
-  }, /*#__PURE__*/_react.default.createElement("a", {
-    className: "header_navigation--portfolio_link",
-    href: "portfolio"
-  }, "Portfolio", /*#__PURE__*/_react.default.createElement("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    enableBackground: "new 0 0 24 24",
-    fill: "blue",
-    height: "24",
-    viewBox: "0 0 24 24",
-    width: "24"
-  }, /*#__PURE__*/_react.default.createElement("g", null, /*#__PURE__*/_react.default.createElement("rect", {
-    fill: "none",
-    height: "24",
-    width: "24",
-    x: "0"
-  })), /*#__PURE__*/_react.default.createElement("g", null, /*#__PURE__*/_react.default.createElement("g", null, /*#__PURE__*/_react.default.createElement("g", null, /*#__PURE__*/_react.default.createElement("path", {
-    d: "M22,9.24l-7.19-0.62L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27L18.18,21l-1.63-7.03L22,9.24z M12,15.4V6.1 l1.71,4.04l4.38,0.38l-3.32,2.88l1,4.28L12,15.4z"
-  }))))))), /*#__PURE__*/_react.default.createElement("li", {
     className: "header_navigation--blog"
   }, /*#__PURE__*/_react.default.createElement("a", {
     className: "header_navigation--blog_link",
@@ -30058,7 +30037,7 @@ module.exports = [{
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "jacquit",
-  "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas fuga a iste illum sequi ea, repudiandae delectus veritatis dicta?",
+  "description": "This is about react.",
   "demo": "demo",
   "code": "code",
   "id": "1606708578697",
@@ -30069,7 +30048,7 @@ module.exports = [{
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "Jacquit",
-  "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas fuga a iste illum sequi ea, repudiandae delectus veritatis dicta?",
+  "description": "This is HTML and CSS.",
   "demo": "demo",
   "code": "code",
   "id": "1606708238697",
@@ -30080,7 +30059,7 @@ module.exports = [{
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "jacquit",
-  "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas fuga a iste illum sequi ea, repudiandae delectus veritatis dicta?",
+  "description": "This is about responsive.",
   "demo": "demo",
   "code": "code",
   "id": "1646708538697",
@@ -30094,43 +30073,48 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _react = _interopRequireDefault(require("react"));
+var _react = _interopRequireWildcard(require("react"));
 
 var _data = _interopRequireDefault(require("../data.json"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 function Demo() {
+  var _useState = (0, _react.useState)([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      newData = _useState2[0],
+      setNewData = _useState2[1];
+
   function filteringData(e) {
-    var newItemm = _data.default.filter(function (item) {
+    var newItem = _data.default.filter(function (item) {
       return item.type === e.target.value;
     });
 
-    console.log(newItemm);
-    return /*#__PURE__*/_react.default.createElement("div", {
-      className: "responsive_blog",
-      key: newItemm.id
-    }, /*#__PURE__*/_react.default.createElement("img", {
-      className: "responsive_image",
-      src: "",
-      alt: "receipe_blog"
-    }), /*#__PURE__*/_react.default.createElement("ul", {
-      className: "three_basics"
-    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
-      href: newItemm.html
-    }, "HTML")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
-      href: newItemm.css
-    }, "CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
-      href: newItemm.javascript
-    }, "JAVASCRIPT"))), /*#__PURE__*/_react.default.createElement("h3", {
-      className: "heading"
-    }, newItemm.title), /*#__PURE__*/_react.default.createElement("p", null, newItemm.description), /*#__PURE__*/_react.default.createElement("ul", {
-      className: "buttons_container"
-    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
-      type: "demo_button"
-    }, newItemm.demo)), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
-      type: "code_button"
-    }, newItemm.code))));
+    setNewData(newItem);
+  }
+
+  function all() {
+    var ls = _data.default.map(function (item) {
+      return /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, item.title, item.description));
+    });
+
+    console.log(ls);
   }
 
   return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h2", null, "Projects (3)"), /*#__PURE__*/_react.default.createElement("ul", {
@@ -30144,7 +30128,31 @@ function Demo() {
   }, "Responsive")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
     value: "html&css",
     onClick: filteringData
-  }, "HTML and CSS")))), /*#__PURE__*/_react.default.createElement("div", null, "filteringData()"));
+  }, "HTML and CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
+    onClick: all
+  }, "All")))), /*#__PURE__*/_react.default.createElement("div", null, newData.map(function (item) {
+    console.log(item);
+    return /*#__PURE__*/_react.default.createElement("div", {
+      className: "responsive_blog",
+      key: item.id
+    }, /*#__PURE__*/_react.default.createElement("ul", {
+      className: "three_basics"
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: item.html
+    }, "HTML")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: item.css
+    }, "CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: item.javascript
+    }, "JAVASCRIPT"))), /*#__PURE__*/_react.default.createElement("h3", {
+      className: "heading"
+    }, item.title), /*#__PURE__*/_react.default.createElement("p", null, item.description), /*#__PURE__*/_react.default.createElement("ul", {
+      className: "buttons_container"
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
+      type: "demo_button"
+    }, item.demo)), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
+      type: "code_button"
+    }, item.code))));
+  })));
 }
 
 var _default = Demo;
@@ -30345,7 +30353,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61101" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59530" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
