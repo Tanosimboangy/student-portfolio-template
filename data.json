@@ -5,7 +5,7 @@
         "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
         "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
         "title": "jacquit",
-        "description": "This is about react.",
+        "description": "This .",
         "demo": "https://country-quiz-project.netlify.app/",
         "code": "https://github.com/Tanosimboangy/country-quiz",
         "id": "1606708578697",
@@ -13,6 +13,18 @@
     },
     {
         "img": "",
+        "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+        "title": "Jacquit",
+        "description": "This is HTML and CSS.",
+        "demo": "demo",
+        "code": "code",
+        "id": "1606708238697",
+        "type": "html&css"
+    },
+    {
+        "img": "/img/photograph.png",
         "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
         "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
         "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",

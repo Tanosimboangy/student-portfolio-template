@@ -39,6 +39,7 @@ function Demo() {
                     console.log(item);
                     return (
                         <div className="responsive_blog" key={item.id}>
+                            <img src={item.img} alt={`this image is ${item.title}`}/>
                             <ul className="three_basics">
                                 <li><a href={item.html}>HTML</a></li>
                                 <li><a href={item.css}>CSS</a></li>
