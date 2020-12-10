@@ -30038,8 +30038,8 @@ module.exports = [{
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "jacquit",
   "description": "This is about react.",
-  "demo": "demo",
-  "code": "code",
+  "demo": "https://country-quiz-project.netlify.app/",
+  "code": "https://github.com/Tanosimboangy/country-quiz",
   "id": "1606708578697",
   "type": "react"
 }, {
@@ -30147,11 +30147,11 @@ function Demo() {
       className: "heading"
     }, item.title), /*#__PURE__*/_react.default.createElement("p", null, item.description), /*#__PURE__*/_react.default.createElement("ul", {
       className: "buttons_container"
-    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
-      type: "demo_button"
-    }, item.demo)), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
-      type: "code_button"
-    }, item.code))));
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: item.demo
+    }, "Demo")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: item.code
+    }, "Code"))));
   })));
 }
 
@@ -30353,7 +30353,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59530" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56364" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

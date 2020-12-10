@@ -47,12 +47,8 @@ function Demo() {
                             <h3 className="heading">{item.title}</h3>
                             <p>{item.description}</p>
                             <ul className="buttons_container">
-                                <li>
-                                    <button type="demo_button">{item.demo}</button>
-                                </li>
-                                <li>
-                                    <button type="code_button">{item.code}</button>
-                                </li>
+                                <li><a href={item.demo}>Demo</a></li>
+                                <li><a href={item.code}>Code</a></li>
                             </ul>
                         </div>
                     )

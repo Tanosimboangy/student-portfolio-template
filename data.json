@@ -6,8 +6,8 @@
         "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
         "title": "jacquit",
         "description": "This is about react.",
-        "demo": "demo",
-        "code": "code",
+        "demo": "https://country-quiz-project.netlify.app/",
+        "code": "https://github.com/Tanosimboangy/country-quiz",
         "id": "1606708578697",
         "type": "react"
     },
