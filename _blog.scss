@@ -1,7 +1,9 @@
 .blog_section {
     padding: 16px;
-    background-color: white;
+    // background-color: white;
     border-radius: 12px;
+    box-shadow: 0px 0px 4px black;
+    margin-bottom: 20px;
     article {
         .blog_heading {
             padding-bottom: 50px;
@@ -13,10 +15,10 @@
                     flex-wrap: wrap;
                     li:first-of-type {
                         h2 {
-                            font-weight: 500;
+                            font-weight: 600;
                             font-size: 16px;
                             line-height: 20px;
-                            color: #E0E0E0;
+                            color: #7a7777;
                             padding-top: 20;
                             padding-bottom: 20px;
                         }

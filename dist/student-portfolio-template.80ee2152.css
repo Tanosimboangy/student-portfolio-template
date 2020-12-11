@@ -36,6 +36,10 @@ body a {
 body h1, body h2, body h3, body h4, body h5, body h6, body p {
   margin: 0;
 }
+body .main {
+  max-width: 95%;
+  margin: auto;
+}
 
 @media (min-width: 720px) {
   body {
@@ -44,8 +48,6 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p {
   body .main {
     padding: 0;
     padding-top: 16px;
-    max-width: 95%;
-    margin: auto;
   }
 }
 @media (min-width: 900px) {
@@ -67,13 +69,15 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p {
   align-items: baseline;
   justify-content: space-between;
 }
-.header .header_container h2 {
+.header .header_container h1 {
   margin: 0;
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: "Lato";
   font-size: 40px;
   color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 .header .header_container input {
   position: absolute;
@@ -109,7 +113,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p {
 }
 .header .header_container input:checked ~ nav ul li a {
   color: white;
-  font-size: 26px;
+  font-size: 20px;
   text-decoration: none;
   font-family: "Lato";
 }
@@ -136,13 +140,12 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p {
     flex-direction: row;
   }
   .header .header_container .header_navigation ul li:not(:last-of-type) {
-    padding-right: 16px;
+    padding-right: 50px;
   }
   .header .header_container .header_navigation ul li a {
     color: white;
     text-transform: capitalize;
     font-size: 20px;
-    font-weight: 500;
   }
   .header .header_container .header_navigation ul li a:hover {
     font-weight: bold;
@@ -155,12 +158,13 @@ body .main .masthead_container {
   max-width: 400px;
   margin: auto;
   margin-bottom: 40px;
+  box-shadow: 0px 0px 4px black;
 }
 body .main .masthead_container .masthead_profile {
   padding-bottom: 20px;
 }
 body .main .masthead_container .masthead_profile img {
-  max-width: 60%;
+  max-width: 100%;
   border-radius: 12px;
   cursor: pointer;
 }
@@ -203,6 +207,7 @@ body .main .masthead_container .personal_details .personal_contact .email_contac
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 }
 body .main .masthead_container .personal_details .personal_contact .email_contact a svg {
   padding-right: 20px;
@@ -218,6 +223,7 @@ body .main .masthead_container .personal_details .personal_contact .phonenumber_
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 }
 body .main .masthead_container .personal_details .personal_contact .phonenumber_contact p svg {
   padding-right: 20px;
@@ -281,6 +287,7 @@ body .main .masthead_container .personal_motivation p {
   margin: auto;
   margin-bottom: 42px;
   color: #4F4F4F;
+  box-shadow: 0px 0px 4px black;
 }
 .progress_container .progress_heading {
   font-family: "Montserrat_Bold";
@@ -316,8 +323,9 @@ body .main .masthead_container .personal_motivation p {
 
 .blog_section {
   padding: 16px;
-  background-color: white;
   border-radius: 12px;
+  box-shadow: 0px 0px 4px black;
+  margin-bottom: 20px;
 }
 .blog_section article .blog_heading {
   padding-bottom: 50px;
@@ -329,10 +337,10 @@ body .main .masthead_container .personal_motivation p {
   flex-wrap: wrap;
 }
 .blog_section article .blog_heading li:first-of-type ul li:first-of-type h2 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   line-height: 20px;
-  color: #E0E0E0;
+  color: #7a7777;
   padding-top: 20;
   padding-bottom: 20px;
 }
@@ -361,6 +369,25 @@ body .main .masthead_container .personal_motivation p {
   font-size: 16px;
   line-height: 20px;
   color: #828282;
+}
+
+.demo_section div:first-of-type {
+  padding: 16px;
+  box-shadow: 0px 0px 4px black;
+  margin-bottom: 20px;
+}
+.demo_section div:last-of-type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.demo_section div:last-of-type .container {
+  padding: 16px;
+  box-shadow: 0px 0px 4px black;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=/student-portfolio-template.80ee2152.css.map */

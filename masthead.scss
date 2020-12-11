@@ -7,10 +7,11 @@ body {
             max-width: 400px;
             margin: auto;
             margin-bottom: 40px;
+            box-shadow: 0px 0px 4px black;
             .masthead_profile {
                 padding-bottom: 20px;
                 img {
-                    max-width: 60%;
+                    max-width: 100%;
                     border-radius: 12px;
                     cursor: pointer;
                 }
@@ -57,6 +58,7 @@ body {
                             display: flex;
                             flex-direction: row;
                             align-items: center;
+                            flex-wrap: wrap;
                             svg {
                                 padding-right: 20px;
                             }
@@ -74,6 +76,7 @@ body {
                             display: flex;
                             flex-direction: row;
                             align-items: center;
+                            flex-wrap: wrap;
                             svg {
                                 padding-right: 20px;
                             }

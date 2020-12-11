@@ -29791,7 +29791,7 @@ function Header() {
     className: "container"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "header_container"
-  }, /*#__PURE__*/_react.default.createElement("h2", {
+  }, /*#__PURE__*/_react.default.createElement("h1", {
     className: "header_logo"
   }, "My Portfolio"), /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -30133,13 +30133,19 @@ function Demo() {
     });
 
     setNewData(newItem);
-  }
+  } // function all() {
+  //     const ls = data.map(item => {
+  //         return (
+  //             <ul>
+  //                 <li>
+  //                     {item.title}
+  //                     {item.description}
+  //                 </li>
+  //             </ul>
+  //         )
+  //     })
+  // }
 
-  function all() {
-    var ls = _data.default.map(function (item) {
-      return /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, item.title, item.description));
-    });
-  }
 
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h2", null, "Projects (3)"), /*#__PURE__*/_react.default.createElement("ul", {
     className: "projects_options"
@@ -30152,9 +30158,7 @@ function Demo() {
   }, "Responsive")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
     value: "html&css",
     onClick: filteringData
-  }, "HTML and CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
-    onClick: all
-  }, "All")))), /*#__PURE__*/_react.default.createElement("div", null, newData.map(function (item) {
+  }, "HTML and CSS")))), /*#__PURE__*/_react.default.createElement("div", null, newData.map(function (item) {
     console.log(item);
     return /*#__PURE__*/_react.default.createElement("div", {
       className: "container",
@@ -30381,7 +30385,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51248" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52805" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -9,18 +9,18 @@ function Demo() {
         setNewData(newItem)
     }
     
-    function all() {
-        const ls = data.map(item => {
-            return (
-                <ul>
-                    <li>
-                        {item.title}
-                        {item.description}
-                    </li>
-                </ul>
-            )
-        })
-    }
+    // function all() {
+    //     const ls = data.map(item => {
+    //         return (
+    //             <ul>
+    //                 <li>
+    //                     {item.title}
+    //                     {item.description}
+    //                 </li>
+    //             </ul>
+    //         )
+    //     })
+    // }
 
     return (
         <>
@@ -30,7 +30,7 @@ function Demo() {
                     <li><button value="react" onClick={filteringData}>React</button></li>
                     <li><button value="responsive" onClick={filteringData}>Responsive</button></li>
                     <li><button value="html&css"  onClick={filteringData}>HTML and CSS</button></li>
-                    <li><button onClick={all}>All</button></li>
+                    {/* <li><button onClick={all}>All</button></li> */}
                 </ul>
             </div>
             <div>
