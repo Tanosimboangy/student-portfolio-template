@@ -8,19 +8,6 @@ function Demo() {
         const newItem = data.filter(item => item.type === e.target.value)
         setNewData(newItem)
     }
-    
-    // function all() {
-    //     const ls = data.map(item => {
-    //         return (
-    //             <ul>
-    //                 <li>
-    //                     {item.title}
-    //                     {item.description}
-    //                 </li>
-    //             </ul>
-    //         )
-    //     })
-    // }
 
     return (
         <>
@@ -30,7 +17,7 @@ function Demo() {
                     <li><button value="react" onClick={filteringData}>React</button></li>
                     <li><button value="responsive" onClick={filteringData}>Responsive</button></li>
                     <li><button value="html&css"  onClick={filteringData}>HTML and CSS</button></li>
-                    {/* <li><button onClick={all}>All</button></li> */}
+                    <li><button value="vanilla"  onClick={filteringData}>Vanilla</button></li>
                 </ul>
             </div>
             <div>

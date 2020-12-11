@@ -5,7 +5,7 @@
         "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
         "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
         "title": "jacquit",
-        "description": "This .",
+        "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
         "demo": "https://country-quiz-project.netlify.app/",
         "code": "https://github.com/Tanosimboangy/country-quiz",
         "id": "1606708578697",
@@ -16,8 +16,20 @@
         "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
         "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
         "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+        "title": "jacquit",
+        "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "demo": "https://my-hit-parade-project.netlify.app",
+        "code": "https://github.com/Tanosimboangy/country-quiz",
+        "id": "1606708578697",
+        "type": "react"
+    },
+    {
+        "img": "",
+        "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
         "title": "Jacquit",
-        "description": "This is HTML and CSS.",
+        "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
         "demo": "demo",
         "code": "code",
         "id": "1606708238697",
@@ -29,7 +41,7 @@
         "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
         "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
         "title": "Jacquit",
-        "description": "This is HTML and CSS.",
+        "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
         "demo": "demo",
         "code": "code",
         "id": "1606708238697",
@@ -41,25 +53,22 @@
         "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
         "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
         "title": "jacquit",
-        "description": "This is about responsive.",
+        "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
         "demo": "demo",
         "code": "code",
         "id": "1646708538697",
         "type": "responsive"
+    },
+    {
+        "img": "",
+        "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+        "title": "jacquit",
+        "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "demo": "https://nifty-leakey-0a387b.netlify.app",
+        "code": "https://github.com/Tanosimboangy/birthday-app",
+        "id": "1646708538697",
+        "type": "vanilla"
     }
 ]
-
-/*
-https://cocky-hermann-e30656.netlify.app === my portfolio
-https://nifty-leakey-0a387b.netlify.app === my birthday app
-https://country-quiz-project.netlify.app === country quiz
-https://github-jobs-jacquit-netlify-app.netlify.app === jobs search
-https://jacquit-movie-search.netlify.app === search movies
-https://airbnb-clone-pro.netlify.app === air bnb
-https://my-hit-parade-project.netlify.app === hit parade
-https://edit-page.netlify.app === edit parade
-https://interior-designer-consultant.netlify.app === design consultant
-https://pensive-stonebraker-ff616a.netlify.app === reusable button
-https://randomquotegeneratornetlify.netlify.app === randomquotegeneratornetlify
-https://sleepy-shirley-23bbdc.netlify.app === sleepy shirly
-*/

@@ -30037,7 +30037,7 @@ module.exports = [{
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "jacquit",
-  "description": "This .",
+  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
   "demo": "https://country-quiz-project.netlify.app/",
   "code": "https://github.com/Tanosimboangy/country-quiz",
   "id": "1606708578697",
@@ -30047,8 +30047,19 @@ module.exports = [{
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+  "title": "jacquit",
+  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+  "demo": "https://my-hit-parade-project.netlify.app",
+  "code": "https://github.com/Tanosimboangy/country-quiz",
+  "id": "1606708578697",
+  "type": "react"
+}, {
+  "img": "",
+  "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "Jacquit",
-  "description": "This is HTML and CSS.",
+  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
   "demo": "demo",
   "code": "code",
   "id": "1606708238697",
@@ -30059,7 +30070,7 @@ module.exports = [{
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "Jacquit",
-  "description": "This is HTML and CSS.",
+  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
   "demo": "demo",
   "code": "code",
   "id": "1606708238697",
@@ -30070,27 +30081,23 @@ module.exports = [{
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "jacquit",
-  "description": "This is about responsive.",
+  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
   "demo": "demo",
   "code": "code",
   "id": "1646708538697",
   "type": "responsive"
-}]
-/*
-https://cocky-hermann-e30656.netlify.app === my portfolio
-https://nifty-leakey-0a387b.netlify.app === my birthday app
-https://country-quiz-project.netlify.app === country quiz
-https://github-jobs-jacquit-netlify-app.netlify.app === jobs search
-https://jacquit-movie-search.netlify.app === search movies
-https://airbnb-clone-pro.netlify.app === air bnb
-https://my-hit-parade-project.netlify.app === hit parade
-https://edit-page.netlify.app === edit parade
-https://interior-designer-consultant.netlify.app === design consultant
-https://pensive-stonebraker-ff616a.netlify.app === reusable button
-https://randomquotegeneratornetlify.netlify.app === randomquotegeneratornetlify
-https://sleepy-shirley-23bbdc.netlify.app === sleepy shirly
-*/
-;
+}, {
+  "img": "",
+  "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+  "title": "jacquit",
+  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+  "demo": "https://nifty-leakey-0a387b.netlify.app",
+  "code": "https://github.com/Tanosimboangy/birthday-app",
+  "id": "1646708538697",
+  "type": "vanilla"
+}];
 },{}],"elements/Demo.js":[function(require,module,exports) {
 "use strict";
 
@@ -30133,19 +30140,7 @@ function Demo() {
     });
 
     setNewData(newItem);
-  } // function all() {
-  //     const ls = data.map(item => {
-  //         return (
-  //             <ul>
-  //                 <li>
-  //                     {item.title}
-  //                     {item.description}
-  //                 </li>
-  //             </ul>
-  //         )
-  //     })
-  // }
-
+  }
 
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h2", null, "Projects (3)"), /*#__PURE__*/_react.default.createElement("ul", {
     className: "projects_options"
@@ -30158,7 +30153,10 @@ function Demo() {
   }, "Responsive")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
     value: "html&css",
     onClick: filteringData
-  }, "HTML and CSS")))), /*#__PURE__*/_react.default.createElement("div", null, newData.map(function (item) {
+  }, "HTML and CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
+    value: "vanilla",
+    onClick: filteringData
+  }, "Vanilla")))), /*#__PURE__*/_react.default.createElement("div", null, newData.map(function (item) {
     console.log(item);
     return /*#__PURE__*/_react.default.createElement("div", {
       className: "container",
@@ -30221,107 +30219,7 @@ function Main() {
 
 var _default = Main;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../elements/Blog":"elements/Blog.js","../elements/Progress":"elements/Progress.js","../components/Masthead":"components/Masthead.js","../elements/Demo":"elements/Demo.js"}],"components/Footer.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Footer() {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "footer_container"
-  }, /*#__PURE__*/_react.default.createElement("h3", null, "To sumit up"), /*#__PURE__*/_react.default.createElement("p", null, "To conclude all about this website, I would like to thank you for allocating some of your time to read through this page"), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("nav", {
-    className: "footer_navigation"
-  }, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", {
-    className: "footer_navigation--portfolio"
-  }, /*#__PURE__*/_react.default.createElement("a", {
-    className: "footer_navigation--portfolio_link",
-    href: "portfolio"
-  }, "Portfolio", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    enableBackground: "new 0 0 24 24",
-    fill: "blue",
-    height: "24",
-    viewBox: "0 0 24 24",
-    width: "24"
-  }, /*#__PURE__*/_react.default.createElement("g", null, /*#__PURE__*/_react.default.createElement("rect", {
-    fill: "none",
-    height: "24",
-    width: "24",
-    x: "0"
-  })), /*#__PURE__*/_react.default.createElement("g", null, /*#__PURE__*/_react.default.createElement("g", null, /*#__PURE__*/_react.default.createElement("g", null, /*#__PURE__*/_react.default.createElement("path", {
-    d: "M22,9.24l-7.19-0.62L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27L18.18,21l-1.63-7.03L22,9.24z M12,15.4V6.1 l1.71,4.04l4.38,0.38l-3.32,2.88l1,4.28L12,15.4z"
-  }))))))), /*#__PURE__*/_react.default.createElement("li", {
-    className: "footer_navigation--blog"
-  }, /*#__PURE__*/_react.default.createElement("a", {
-    className: "footer_navigation--blog_link",
-    href: "blog"
-  }, "Blog", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    enableBackground: "new 0 0 24 24",
-    fill: "blue",
-    height: "24",
-    viewBox: "0 0 24 24",
-    width: "24"
-  }, /*#__PURE__*/_react.default.createElement("g", null, /*#__PURE__*/_react.default.createElement("rect", {
-    fill: "none",
-    height: "24",
-    width: "24"
-  })), /*#__PURE__*/_react.default.createElement("g", null, /*#__PURE__*/_react.default.createElement("g", null, /*#__PURE__*/_react.default.createElement("g", null, /*#__PURE__*/_react.default.createElement("path", {
-    d: "M17.5,4.5c-1.95,0-4.05,0.4-5.5,1.5c-1.45-1.1-3.55-1.5-5.5-1.5S2.45,4.9,1,6v14.65c0,0.65,0.73,0.45,0.75,0.45 C3.1,20.45,5.05,20,6.5,20c1.95,0,4.05,0.4,5.5,1.5c1.35-0.85,3.8-1.5,5.5-1.5c1.65,0,3.35,0.3,4.75,1.05 C22.66,21.26,23,20.86,23,20.6V6C21.51,4.88,19.37,4.5,17.5,4.5z M21,18.5c-1.1-0.35-2.3-0.5-3.5-0.5c-1.7,0-4.15,0.65-5.5,1.5V8 c1.35-0.85,3.8-1.5,5.5-1.5c1.2,0,2.4,0.15,3.5,0.5V18.5z"
-  }))))))), /*#__PURE__*/_react.default.createElement("li", {
-    className: "footer_navigation--contact"
-  }, /*#__PURE__*/_react.default.createElement("a", {
-    className: "footer_navigation--contact_link",
-    href: "/contact"
-  }, "Contact", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    height: "24",
-    viewBox: "0 0 24 24",
-    fill: "blue",
-    width: "24"
-  }, /*#__PURE__*/_react.default.createElement("path", {
-    d: "M0 0h24v24H0zm0 0h24v24H0zm0 0h24v24H0z",
-    fill: "none"
-  }), /*#__PURE__*/_react.default.createElement("path", {
-    d: "M20 0H4v2h16V0zM4 24h16v-2H4v2zM20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-8 2.75c1.24 0 2.25 1.01 2.25 2.25s-1.01 2.25-2.25 2.25S9.75 10.24 9.75 9 10.76 6.75 12 6.75zM17 17H7v-1.5c0-1.67 3.33-2.5 5-2.5s5 .83 5 2.5V17z"
-  })))), /*#__PURE__*/_react.default.createElement("li", {
-    className: "footer_navigation--design"
-  }, /*#__PURE__*/_react.default.createElement("a", {
-    className: "footer_navigation--design_link",
-    href: "/design"
-  }, "Design", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    height: "24",
-    viewBox: "0 0 24 24",
-    fill: "blue",
-    width: "24"
-  }, /*#__PURE__*/_react.default.createElement("path", {
-    d: "M0 0h24v24H0z",
-    fill: "none"
-  }), /*#__PURE__*/_react.default.createElement("path", {
-    d: "M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"
-  }))))))), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h4", null, "More Inforamtion"), /*#__PURE__*/_react.default.createElement("p", null, "Should you need more inforamtion, please let me through these links!"), /*#__PURE__*/_react.default.createElement("ul", {
-    className: "footer_moreInfo"
-  }, /*#__PURE__*/_react.default.createElement("li", {
-    className: "footer_links"
-  }), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
-    src: "./img/jacquit (2).jpg",
-    alt: "this is Jacquit"
-  })), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "Built by Jacquit"), /*#__PURE__*/_react.default.createElement("li", null, "Created in 2020"))))))), /*#__PURE__*/_react.default.createElement("ul", {
-    className: "last_footer_items"
-  }, /*#__PURE__*/_react.default.createElement("li", null, "Created by Jacquit"), /*#__PURE__*/_react.default.createElement("li", null, "\xA9 Jacquit, 2020. All rights reserved.")));
-}
-
-var _default = Footer;
-exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"components/App.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../elements/Blog":"elements/Blog.js","../elements/Progress":"elements/Progress.js","../components/Masthead":"components/Masthead.js","../elements/Demo":"elements/Demo.js"}],"components/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -30335,17 +30233,15 @@ var _Header = _interopRequireDefault(require("./Header"));
 
 var _Main = _interopRequireDefault(require("./Main"));
 
-var _Footer = _interopRequireDefault(require("./Footer"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_Header.default, null), /*#__PURE__*/_react.default.createElement(_Main.default, null), /*#__PURE__*/_react.default.createElement(_Footer.default, null));
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_Header.default, null), /*#__PURE__*/_react.default.createElement(_Main.default, null));
 }
 
 var _default = App;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./Header":"components/Header.js","./Main":"components/Main.js","./Footer":"components/Footer.js"}],"index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./Header":"components/Header.js","./Main":"components/Main.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -30385,7 +30281,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52805" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60318" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
