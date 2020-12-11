@@ -1,14 +1,8 @@
 {
-  "name": "my_portfolio",
+  "name": "student-portfolio-template",
   "version": "1.0.0",
-  "description": "Challenge: Create all the elements in the given designs and then create a portfolio with your own content. You can create your own layout. Don’t look at the existing solution. Fulfill user stories below:",
+  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "sass": "^1.29.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/Tanosimboangy/student-portfolio-template/issues"
   },
-  "homepage": "https://github.com/Tanosimboangy/student-portfolio-template#readme"
+  "homepage": "https://github.com/Tanosimboangy/student-portfolio-template#readme",
+  "devDependencies": {
+    "sass": "^1.30.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
 }

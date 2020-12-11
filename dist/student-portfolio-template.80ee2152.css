@@ -10,12 +10,18 @@
   font-family: "Montserrat_Bold";
   src: local(Montserrat_Bold), url(/Montserrat_Bold.4ccf02a8.woff2) format("woff2"), url(/Montserrat_Bold.a89e8958.woff) format("woff");
 }
+@font-face {
+  font-family: "Lato_bold";
+  src: local(Lato), url(/Lato-Bold.a497623e.woff2) format("woff2"), url(/Lato-Bold.2ba61289.woff) format("woff");
+}
+@font-face {
+  font-family: "Lato";
+  src: local(Lato), url(/Lato-Regular.1c034558.woff2) format("woff2"), url(/Lato-Regular.5200f20d.woff) format("woff");
+}
 body {
   margin: 0;
-  padding: 16px;
   font-family: "Montserrat_Regular";
   font-style: normal;
-  background-color: #e9e5e5;
 }
 body ul {
   padding: 0;
@@ -34,18 +40,115 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p {
 @media (min-width: 720px) {
   body {
     padding: 0;
+  }
+  body .main {
+    padding: 0;
     padding-top: 16px;
     max-width: 95%;
     margin: auto;
   }
 }
 @media (min-width: 900px) {
-  body {
+  body .main {
     max-width: 75%;
     margin: auto;
   }
 }
-body .header_container {
+.header {
+  position: relative;
+  background-color: #32067c;
+  padding: 16px;
+  margin-bottom: 60px;
+  font-style: normal;
+}
+.header .header_container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.header .header_container h2 {
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "Lato";
+  font-size: 40px;
+  color: white;
+}
+.header .header_container input {
+  position: absolute;
+  top: 64px;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+}
+.header .header_container .header_navigation {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: 1;
+}
+.header .header_container input:checked ~ nav {
+  position: absolute;
+  top: 159px;
+  left: 0%;
+  background-color: #32067c;
+  width: 100%;
+  height: 227%;
+}
+.header .header_container input:checked ~ nav ul li {
+  text-align: left;
+  padding-left: 8%;
+  padding-top: 40px;
+}
+.header .header_container input:checked ~ nav ul li svg {
+  padding-left: 20px;
+  padding-top: 4px;
+  fill: orange;
+}
+.header .header_container input:checked ~ nav ul li a {
+  color: white;
+  font-size: 26px;
+  text-decoration: none;
+  font-family: "Lato";
+}
+.header .header_container input:checked ~ nav ul li a:hover {
+  font-weight: bold;
+}
+.header .header_container input:checked ~ nav ul li a:hover svg {
+  fill: white;
+}
+
+@media (min-width: 720px) {
+  .header .header_container {
+    max-width: 80%;
+    margin: auto;
+  }
+  .header .header_container svg {
+    display: none;
+  }
+  .header .header_container .header_navigation {
+    position: initial;
+  }
+  .header .header_container .header_navigation ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .header .header_container .header_navigation ul li:not(:last-of-type) {
+    padding-right: 16px;
+  }
+  .header .header_container .header_navigation ul li a {
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .header .header_container .header_navigation ul li a:hover {
+    font-weight: bold;
+  }
+}
+body .main .masthead_container {
   background-color: #FFFFFF;
   border-radius: 12px;
   padding: 16px;
@@ -53,18 +156,18 @@ body .header_container {
   margin: auto;
   margin-bottom: 40px;
 }
-body .header_container .header_profile {
+body .main .masthead_container .masthead_profile {
   padding-bottom: 20px;
 }
-body .header_container .header_profile img {
+body .main .masthead_container .masthead_profile img {
   max-width: 60%;
   border-radius: 12px;
   cursor: pointer;
 }
-body .header_container .personal_details .personal_description {
+body .main .masthead_container .personal_details .personal_description {
   padding-bottom: 20px;
 }
-body .header_container .personal_details .personal_description li:first-of-type h2 {
+body .main .masthead_container .personal_details .personal_description li:first-of-type h2 {
   font-family: "Montserrat_SemiBold";
   font-weight: 600;
   font-size: 24px;
@@ -72,24 +175,24 @@ body .header_container .personal_details .personal_description li:first-of-type 
   color: #4F4F4F;
   padding-bottom: 6px;
 }
-body .header_container .personal_details .personal_description li:last-of-type p {
+body .main .masthead_container .personal_details .personal_description li:last-of-type p {
   font-family: "Montserrat_Regular";
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   color: #828282;
 }
-body .header_container .personal_details .personal_contact {
+body .main .masthead_container .personal_details .personal_contact {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   color: #4F4F4F;
   padding-bottom: 20px;
 }
-body .header_container .personal_details .personal_contact .email_contact {
+body .main .masthead_container .personal_details .personal_contact .email_contact {
   padding-bottom: 6px;
 }
-body .header_container .personal_details .personal_contact .email_contact a {
+body .main .masthead_container .personal_details .personal_contact .email_contact a {
   padding-bottom: 10px;
   font-family: "Montserrat_SemiBold";
   font-style: normal;
@@ -101,28 +204,28 @@ body .header_container .personal_details .personal_contact .email_contact a {
   flex-direction: row;
   align-items: center;
 }
-body .header_container .personal_details .personal_contact .email_contact a svg {
+body .main .masthead_container .personal_details .personal_contact .email_contact a svg {
   padding-right: 20px;
 }
-body .header_container .personal_details .personal_contact .email_contact a:hover {
+body .main .masthead_container .personal_details .personal_contact .email_contact a:hover {
   color: blue;
   font-weight: 600;
 }
-body .header_container .personal_details .personal_contact .email_contact a:hover svg {
+body .main .masthead_container .personal_details .personal_contact .email_contact a:hover svg {
   fill: blue;
 }
-body .header_container .personal_details .personal_contact .phonenumber_contact p {
+body .main .masthead_container .personal_details .personal_contact .phonenumber_contact p {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-body .header_container .personal_details .personal_contact .phonenumber_contact p svg {
+body .main .masthead_container .personal_details .personal_contact .phonenumber_contact p svg {
   padding-right: 20px;
 }
-body .header_container .personal_details .personal_contact .phonenumber_contact p:hover svg {
+body .main .masthead_container .personal_details .personal_contact .phonenumber_contact p:hover svg {
   fill: blue;
 }
-body .header_container .personal_motivation p {
+body .main .masthead_container .personal_motivation p {
   font-family: "Montserrat_Regular";
   font-weight: 500;
   font-size: 18px;
@@ -132,41 +235,41 @@ body .header_container .personal_motivation p {
 }
 
 @media (min-width: 650px) {
-  body .header_container {
+  body .main .masthead_container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     max-width: 100%;
   }
-  body .header_container .header_profile {
+  body .main .masthead_container .masthead_profile {
     margin-right: 10%;
     padding-bottom: 20px;
   }
-  body .header_container .header_profile img {
+  body .main .masthead_container .masthead_profile img {
     max-width: 180px;
   }
-  body .header_container .personal_details {
+  body .main .masthead_container .personal_details {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
   }
-  body .header_container .personal_details .personal_description {
+  body .main .masthead_container .personal_details .personal_description {
     padding-bottom: 40px;
   }
-  body .header_container .personal_details .personal_description li:first-of-type h2 {
+  body .main .masthead_container .personal_details .personal_description li:first-of-type h2 {
     padding-bottom: 6px;
   }
-  body .header_container .personal_details .personal_description li:last-of-type p {
+  body .main .masthead_container .personal_details .personal_description li:last-of-type p {
     color: #828282;
   }
-  body .header_container .personal_details .personal_contact {
+  body .main .masthead_container .personal_details .personal_contact {
     padding-bottom: 20px;
   }
-  body .header_container .personal_details .personal_contact .email_contact a {
+  body .main .masthead_container .personal_details .personal_contact .email_contact a {
     padding-bottom: 10px;
   }
-  body .header_container .personal_motivation p {
+  body .main .masthead_container .personal_motivation p {
     max-width: 100%;
   }
 }

@@ -20,11 +20,10 @@ function Demo() {
                 </ul>
             )
         })
-        console.log(ls);
     }
 
     return (
-        <div>
+        <>
             <div>
                 <h2>Projects (3)</h2>
                 <ul className="projects_options">
@@ -38,24 +37,24 @@ function Demo() {
                 {newData.map(item => {
                     console.log(item);
                     return (
-                        <div className="responsive_blog" key={item.id}>
-                            <img src={item.img} alt={`this image is ${item.title}`}/>
+                        <div className="container" key={item.id}>
+                            {/* <img src={item.img} alt={`this image is ${item.title}`}/> */}
                             <ul className="three_basics">
                                 <li><a href={item.html}>HTML</a></li>
                                 <li><a href={item.css}>CSS</a></li>
                                 <li><a href={item.javascript}>JAVASCRIPT</a></li>
                             </ul>
-                            <h3 className="heading">{item.title}</h3>
-                            <p>{item.description}</p>
+                            <h3 className="project_heading">{item.title}</h3>
+                            <p className="project_description">{item.description}</p>
                             <ul className="buttons_container">
-                                <li><a href={item.demo}>Demo</a></li>
-                                <li><a href={item.code}>Code</a></li>
+                                <li><a className="demo_button" href={item.demo}>Demo</a></li>
+                                <li><a className="code_button" href={item.code}>Code</a></li>
                             </ul>
                         </div>
                     )
                 })}
             </div>
-        </div>
+        </>
     )
 }
 
