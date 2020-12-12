@@ -30043,9 +30043,31 @@ module.exports = [{
   "title": "jacquit",
   "description": "React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications",
   "demo": "https://my-hit-parade-project.netlify.app",
-  "code": "https://github.com/Tanosimboangy/country-quiz",
+  "code": "https://github.com/Tanosimboangy/hit-parade-react",
   "id": "1606708578489",
   "type": "react"
+}, {
+  "img": "https://picsum.photos/id/1/250/150",
+  "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+  "title": "jacquit",
+  "description": "React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications",
+  "demo": "https://edit-page.netlify.app",
+  "code": "https://github.com/Tanosimboangy/edie-homepage",
+  "id": "1606708578930",
+  "type": "responsive"
+}, {
+  "img": "https://picsum.photos/id/1/250/150",
+  "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+  "title": "jacquit",
+  "description": "React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications",
+  "demo": "https://interior-designer-consultant.netlify.app",
+  "code": "https://github.com/Tanosimboangy/interior-consultant",
+  "id": "1606708578901",
+  "type": "responsive"
 }, {
   "img": "https://picsum.photos/id/1/250/150",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
@@ -30168,9 +30190,17 @@ function Demo() {
     setNewData(newItem);
   }
 
+  function showingAll(e) {
+    var allItem = _data.default.map(function (item) {
+      return item;
+    });
+
+    setNewData(allItem);
+  }
+
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "buttons_lists"
-  }, /*#__PURE__*/_react.default.createElement("h2", null, "Projects (3)"), /*#__PURE__*/_react.default.createElement("p", null, "You can ck"), /*#__PURE__*/_react.default.createElement("ul", {
+  }, /*#__PURE__*/_react.default.createElement("h2", null, "Projects"), /*#__PURE__*/_react.default.createElement("p", null, "You can click one of these buttons if you want to spend some time to look at some of my projects. Please have a great time."), /*#__PURE__*/_react.default.createElement("ul", {
     className: "projects_options"
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
     value: "react",
@@ -30181,7 +30211,9 @@ function Demo() {
   }, "Responsive")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
     value: "vanilla",
     onClick: filteringData
-  }, "Vanilla")))), /*#__PURE__*/_react.default.createElement("div", {
+  }, "Vanilla")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
+    onClick: showingAll
+  }, "All")))), /*#__PURE__*/_react.default.createElement("div", {
     className: "wrapper"
   }, newData.map(function (item) {
     console.log(item);
@@ -30264,36 +30296,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function Footer() {
   return /*#__PURE__*/_react.default.createElement("footer", null, /*#__PURE__*/_react.default.createElement("div", {
     className: "footer_container"
-  }, /*#__PURE__*/_react.default.createElement("h3", null, "Portfolio"), /*#__PURE__*/_react.default.createElement("p", null, "To sum up all about this website, I would like to thank you for allocating some of your time to read through this page"), /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Portfolio"), /*#__PURE__*/_react.default.createElement("p", null, "To sum up all about this website, I would like to thank you for allocating some of your time to read through this page."), /*#__PURE__*/_react.default.createElement("div", {
     className: "wrapper_footer"
-  }, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("nav", {
-    className: "footer_navigation"
-  }, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", {
-    className: "footer_navigation--email"
-  }, /*#__PURE__*/_react.default.createElement("a", {
-    className: "footer_navigation--email_link",
+  }, "Should you need more inforamtion, please let me know through my email: ", /*#__PURE__*/_react.default.createElement("a", {
+    className: "footer_email--link",
     href: "mailto:rak.hajasper@mail.com?"
-  }, "Email", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    height: "24",
-    viewBox: "0 0 24 24",
-    fill: "blue",
-    width: "24"
-  }, /*#__PURE__*/_react.default.createElement("path", {
-    d: "M0 0h24v24H0z",
-    fill: "none"
-  }), /*#__PURE__*/_react.default.createElement("path", {
-    d: "M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
-  }))))))), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h4", null, "More Inforamtion"), /*#__PURE__*/_react.default.createElement("p", null, "Should you need more inforamtion, please let me through these links!"), /*#__PURE__*/_react.default.createElement("ul", {
-    className: "footer_moreInfo"
-  }, /*#__PURE__*/_react.default.createElement("li", {
-    className: "footer_links"
-  }), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
-    src: "./img/jacquit (2).jpg",
-    alt: "this is Jacquit"
-  })), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "Built by Jacquit"), /*#__PURE__*/_react.default.createElement("li", null, "Created in 2020"))))))), /*#__PURE__*/_react.default.createElement("ul", {
+  }, "Email", /*#__PURE__*/_react.default.createElement("br", null))), /*#__PURE__*/_react.default.createElement("div", {
     className: "last_footer_items"
-  }, /*#__PURE__*/_react.default.createElement("li", null, "Created by Jacquit"), /*#__PURE__*/_react.default.createElement("li", null, "\xA9 Jacquit, 2020. All rights reserved.")))));
+  }, "Created by Jacquit \xA9 Jacquit, 2020. All rights reserved.")));
 }
 
 var _default = Footer;
@@ -30362,7 +30372,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49906" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63551" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

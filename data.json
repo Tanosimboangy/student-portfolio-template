@@ -19,9 +19,33 @@
         "title": "jacquit",
         "description": "React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications",
         "demo": "https://my-hit-parade-project.netlify.app",
-        "code": "https://github.com/Tanosimboangy/country-quiz",
+        "code": "https://github.com/Tanosimboangy/hit-parade-react",
         "id": "1606708578489",
         "type": "react"
+    },
+    {
+        "img": "https://picsum.photos/id/1/250/150",
+        "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+        "title": "jacquit",
+        "description": "React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications",
+        "demo": "https://edit-page.netlify.app",
+        "code": "https://github.com/Tanosimboangy/edie-homepage",
+        "id": "1606708578930",
+        "type": "responsive"
+    },
+    {
+        "img": "https://picsum.photos/id/1/250/150",
+        "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+        "title": "jacquit",
+        "description": "React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications",
+        "demo": "https://interior-designer-consultant.netlify.app",
+        "code": "https://github.com/Tanosimboangy/interior-consultant",
+        "id": "1606708578901",
+        "type": "responsive"
     },
     {
         "img": "https://picsum.photos/id/1/250/150",
