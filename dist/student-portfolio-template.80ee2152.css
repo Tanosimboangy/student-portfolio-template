@@ -49,14 +49,15 @@ body .main {
     padding: 0;
   }
   body .main {
+    max-width: 80%;
+    margin: auto;
     padding: 0;
     padding-top: 16px;
   }
-}
-@media (min-width: 900px) {
-  body .main {
-    max-width: 80%;
-    margin: auto;
+  body .main .first_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 20px;
   }
 }
 .header {
@@ -77,7 +78,7 @@ body .main {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: "Lato";
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -98,7 +99,7 @@ body .main {
 }
 .header .header_container input:checked ~ nav {
   position: absolute;
-  top: 159px;
+  top: 140px;
   left: 0%;
   background-color: #32067c;
   width: 100%;
@@ -131,6 +132,9 @@ body .main {
   .header .header_container {
     max-width: 80%;
     margin: auto;
+  }
+  .header .header_container h1 {
+    font-size: 25px;
   }
   .header .header_container svg {
     display: none;
@@ -285,7 +289,6 @@ body .main .masthead_container .personal_motivation p {
 .progress_container {
   padding: 16px;
   background-color: #FFFFFF;
-  border-radius: 12px;
   max-width: 100%;
   margin: auto;
   margin-bottom: 42px;
@@ -324,14 +327,22 @@ body .main .masthead_container .personal_motivation p {
   padding-bottom: 5px;
 }
 
+@media (min-width: 720px) {
+  .progress_container {
+    margin: 0;
+    margin-right: 20px;
+  }
+  .progress_container .progress_lists {
+    padding-bottom: 20px;
+  }
+  .progress_container .progress_lists li:not(:last-of-type) {
+    padding-bottom: 5px;
+  }
+}
 .blog_section {
   padding: 16px;
-  border-radius: 12px;
   box-shadow: 0px 0px 4px black;
   margin-bottom: 20px;
-}
-.blog_section article .blog_heading {
-  padding-bottom: 50px;
 }
 .blog_section article .blog_heading li:first-of-type ul {
   display: flex;
@@ -367,13 +378,28 @@ body .main .masthead_container .personal_motivation p {
   line-height: 20px;
   color: #828282;
 }
-.blog_section article .blog_heading li:nth-of-type(3) .blog_paragraph--lists {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #828282;
+.blog_section article .blog_heading li:nth-of-type(3) a {
+  border: 1px solid blue;
+  padding: 8px;
+  border-radius: 10px;
+  color: blue;
+}
+.blog_section article .blog_heading li:nth-of-type(3) a:hover {
+  border: none;
+  background-color: blue;
+  color: white;
 }
 
+@media (min-width: 720px) {
+  .blog_section {
+    max-width: 350px;
+    margin-left: auto;
+  }
+  .blog_section article .blog_heading li:first-of-type ul li:nth-of-type(2) img {
+    max-width: 150px;
+    border-radius: 12px;
+  }
+}
 .demo_section .buttons_lists {
   padding: 16px;
   box-shadow: 0px 0px 4px black;
@@ -409,16 +435,14 @@ body .main .masthead_container .personal_motivation p {
 .demo_section .wrapper {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
+  overflow-x: scroll;
 }
 .demo_section .wrapper .container {
   padding: 16px;
-  box-shadow: 0px 0px 4px black;
   margin-bottom: 20px;
   max-width: 200px;
-  margin-right: 20px;
   border-radius: 12px;
+  border: 1px solid blue;
 }
 .demo_section .wrapper .container img {
   margin-right: 20px;
@@ -432,11 +456,13 @@ body .main .masthead_container .personal_motivation p {
   align-items: center;
   max-width: 300px;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 .demo_section .wrapper .container .three_basics li a {
   font-size: 12px;
   font-weight: 700;
+}
+.demo_section .wrapper .container .three_basics li:not(:last-of-type) {
+  padding-right: 16px;
 }
 .demo_section .wrapper .container h3 {
   padding-top: 0;
@@ -453,23 +479,29 @@ body .main .masthead_container .personal_motivation p {
   justify-content: space-between;
 }
 .demo_section .wrapper .container button {
-  border: 0;
-  line-height: 2.5;
-  padding: 0 10px;
-  font-size: 1rem;
+  background: white;
+  border-radius: 12px;
+  padding: 8px;
   text-transform: uppercase;
   text-align: center;
   cursor: pointer;
   outline: none;
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color: red;
-  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  border: 1px solid blue;
 }
 .demo_section .wrapper .container button a {
-  color: #fff;
+  color: blue;
+}
+.demo_section .wrapper .container button:hover {
+  background: blue;
+}
+.demo_section .wrapper .container button:hover a {
+  color: white;
+}
+.demo_section .wrapper .container:not(:last-of-type) {
+  margin-right: 20px;
+}
+.demo_section .wrapper::-webkit-scrollbar {
+  display: none;
 }
 
 /*# sourceMappingURL=/student-portfolio-template.80ee2152.css.map */

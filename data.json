@@ -33,7 +33,7 @@
         "demo": "demo",
         "code": "code",
         "id": "1606708238111",
-        "type": "html&css"
+        "type": "responsive"
     },
     {
         "img": "https://picsum.photos/id/1/250/150",
@@ -45,7 +45,7 @@
         "demo": "demo",
         "code": "code",
         "id": "3906708238697",
-        "type": "html&css"
+        "type": "responsive"
     },
     {
         "img": "https://picsum.photos/id/1/250/150",
@@ -53,11 +53,47 @@
         "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
         "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
         "title": "jacquit",
-        "description": "Web pages can be viewed using many different devices: desktops, tablets, and phones. It is called responsive web design when you use CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen.",
+        "description": "It is called responsive web design when you use CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen.",
         "demo": "demo",
         "code": "code",
         "id": "1646739538697",
         "type": "responsive"
+    },
+    {
+        "img": "https://picsum.photos/id/1/250/150",
+        "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+        "title": "jacquit",
+        "description": "VanillaJS is a name to refer to using plain JavaScript without any additional libraries like jQuery.",
+        "demo": "https://nifty-leakey-0a387b.netlify.app",
+        "code": "https://github.com/Tanosimboangy/birthday-app",
+        "id": "1646708290694",
+        "type": "vanilla"
+    },
+    {
+        "img": "https://picsum.photos/id/1/250/150",
+        "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+        "title": "jacquit",
+        "description": "VanillaJS is a name to refer to using plain JavaScript without any additional libraries like jQuery.",
+        "demo": "https://nifty-leakey-0a387b.netlify.app",
+        "code": "https://github.com/Tanosimboangy/birthday-app",
+        "id": "1646708290695",
+        "type": "vanilla"
+    },
+    {
+        "img": "https://picsum.photos/id/1/250/150",
+        "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+        "title": "jacquit",
+        "description": "VanillaJS is a name to refer to using plain JavaScript without any additional libraries like jQuery.",
+        "demo": "https://nifty-leakey-0a387b.netlify.app",
+        "code": "https://github.com/Tanosimboangy/birthday-app",
+        "id": "1646708290696",
+        "type": "vanilla"
     },
     {
         "img": "https://picsum.photos/id/1/250/150",

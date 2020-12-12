@@ -38,15 +38,13 @@
     .wrapper {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        flex-wrap: wrap;
+        overflow-x: scroll;
         .container {
             padding: 16px;
-            box-shadow: 0px 0px 4px black;
             margin-bottom: 20px;
             max-width: 200px;
-            margin-right: 20px;
             border-radius: 12px;
+            border: 1px solid blue;
             img {
                 margin-right: 20px;
                 border-radius: 10px;
@@ -59,12 +57,14 @@
                 align-items: center;
                 max-width: 300px;
                 justify-content: space-between;
-                flex-wrap: wrap;
                 li {
                     a {
                         font-size: 12px;
                         font-weight: 700;
                     }
+                }
+                li:not(:last-of-type) {
+                    padding-right: 16px;
                 }
             }
             h3 {
@@ -82,28 +82,30 @@
                 justify-content: space-between;
             }
             button {
-                border: 0;
-                line-height: 2.5;
-                padding: 0 10px;
-                font-size: 1rem;
+                background: white;
+                border-radius: 12px;
+                padding: 8px;
                 text-transform: uppercase;
                 text-align: center;
                 cursor: pointer;
                 outline: none;
-                color: #fff;
-                text-shadow: 1px 1px 1px #000;
-                border-radius: 10px;
-                background-color: red;
-                background-image: linear-gradient(to top left,
-                rgba(0, 0, 0, .2),
-                rgba(0, 0, 0, .2) 30%,
-                rgba(0, 0, 0, 0));
-                box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                            inset -2px -2px 3px rgba(0, 0, 0, .6);
+                border: 1px solid blue;
                 a {
-                    color: #fff;
+                    color: blue;
+                }
+            }
+            button:hover {
+                background: blue;
+                a {
+                    color: white;
                 }
             }
         }
+        .container:not(:last-of-type) {
+            margin-right: 20px;
+        }
     }
+    .wrapper::-webkit-scrollbar {
+        display: none;
+      }
 }

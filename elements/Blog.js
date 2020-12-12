@@ -1,5 +1,5 @@
 import React from 'react'
-import game from '../img/game.jpg'
+import clean_code from '../img/clean_code.jpg'
 
 function Blog() {
     return (
@@ -12,16 +12,13 @@ function Blog() {
                                 <h2>Blog</h2>
                                 <h3>Organize your CODE</h3>
                             </li>
-                            <li><img className="best_design" src={game} alt="best design"/></li>
+                            <li><img className="best_design" src={clean_code} alt="best design"/></li>
                         </ul>
                     </li>
                     <li className="blog_paragraph--lists">
-                        <p>In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.</p>
+                        <p>If you want to write a good code, make it simple as possible to understand as you can and make it clean.</p>
                     </li>
-                    <li>
-                        <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-                    </li>
-                    <li><a href="https://devchallenges.io/">dev.to</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/7-tips-to-write-clean-and-better-code-in-2020/">More info</a></li>
                 </ul>
             </article>
         </div>

@@ -14,7 +14,7 @@
       padding-top: 40px;
       padding-bottom: 40px;
       font-family: "Lato";
-      font-size: 30px;
+      font-size: 20px;
       color: white;
       text-transform: uppercase;
       letter-spacing: 1.5px;
@@ -35,7 +35,7 @@
     }
     input:checked~nav {
       position: absolute;
-      top: 159px;
+      top: 140px;
       left: 0%;
       background-color: #32067c;
       width: 100%;
@@ -74,6 +74,9 @@
     .header_container {
       max-width: 80%;
       margin: auto;
+      h1 {
+        font-size: 25px;
+      }
       svg {
         display: none;
       }
@@ -85,9 +88,6 @@
           li:not(:last-of-type) {
             padding-right: 50px;
           }
-          // .header_navigation--contact:hover {
-          //   background-color: indigo;
-          // }
           li {
             a {
               color: white;

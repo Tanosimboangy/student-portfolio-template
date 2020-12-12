@@ -26,16 +26,13 @@ function Progress() {
                 <li>
                     <ul className="progress_elements">
                         <li><label htmlFor="redux">Redux: </label></li>
-                        <li><progress className="progress" id="redux" max="100" value="5"> 5% </progress></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul className="progress_elements">
-                        <li><label htmlFor="react_native">React Native: </label></li>
-                        <li><progress className="progress" id="react_native" max="100" value="6"> 6% </progress></li>
+                        <li><progress className="progress" id="redux" max="100" value="2"> 2% </progress></li>
                     </ul>
                 </li>
             </ul>
+            <p  className="progress_paragraph">
+                This progress bars show the progress I have made so far. I have made some steps on learning and practicing most of these languages, so I still on the process to thrive and improve my knowledge about programming.
+            </p>
         </div>
     )
 }

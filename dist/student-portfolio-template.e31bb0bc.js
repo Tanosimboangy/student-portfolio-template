@@ -29860,8 +29860,8 @@ function Header() {
     d: "M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"
   })))))))));
 }
-},{"react":"node_modules/react/index.js"}],"img/game.jpg":[function(require,module,exports) {
-module.exports = "/game.365daa7b.jpg";
+},{"react":"node_modules/react/index.js"}],"img/clean_code.jpg":[function(require,module,exports) {
+module.exports = "/clean_code.fc95c19c.jpg";
 },{}],"elements/Blog.js":[function(require,module,exports) {
 "use strict";
 
@@ -29872,7 +29872,7 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _game = _interopRequireDefault(require("../img/game.jpg"));
+var _clean_code = _interopRequireDefault(require("../img/clean_code.jpg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29883,18 +29883,18 @@ function Blog() {
     className: "blog_heading"
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h2", null, "Blog"), /*#__PURE__*/_react.default.createElement("h3", null, "Organize your CODE")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
     className: "best_design",
-    src: _game.default,
+    src: _clean_code.default,
     alt: "best design"
   })))), /*#__PURE__*/_react.default.createElement("li", {
     className: "blog_paragraph--lists"
-  }, /*#__PURE__*/_react.default.createElement("p", null, "In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("p", null, "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
-    href: "https://devchallenges.io/"
-  }, "dev.to")))));
+  }, /*#__PURE__*/_react.default.createElement("p", null, "If you want to write a good code, make it simple as possible to understand as you can and make it clean.")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://www.geeksforgeeks.org/7-tips-to-write-clean-and-better-code-in-2020/"
+  }, "More info")))));
 }
 
 var _default = Blog;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../img/game.jpg":"img/game.jpg"}],"elements/Progress.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../img/clean_code.jpg":"img/clean_code.jpg"}],"elements/Progress.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29948,17 +29948,10 @@ function Progress() {
     className: "progress",
     id: "redux",
     max: "100",
-    value: "5"
-  }, " 5% ")))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", {
-    className: "progress_elements"
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("label", {
-    htmlFor: "react_native"
-  }, "React Native: ")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("progress", {
-    className: "progress",
-    id: "react_native",
-    max: "100",
-    value: "6"
-  }, " 6% "))))));
+    value: "2"
+  }, " 2% "))))), /*#__PURE__*/_react.default.createElement("p", {
+    className: "progress_paragraph"
+  }, "This progress bars show the progress I have made so far. I have made some steps on learning and practicing most of these languages, so I still on the process to thrive and improve my knowledge about programming."));
 }
 
 var _default = Progress;
@@ -30063,7 +30056,7 @@ module.exports = [{
   "demo": "demo",
   "code": "code",
   "id": "1606708238111",
-  "type": "html&css"
+  "type": "responsive"
 }, {
   "img": "https://picsum.photos/id/1/250/150",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
@@ -30074,18 +30067,51 @@ module.exports = [{
   "demo": "demo",
   "code": "code",
   "id": "3906708238697",
-  "type": "html&css"
+  "type": "responsive"
 }, {
   "img": "https://picsum.photos/id/1/250/150",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "jacquit",
-  "description": "Web pages can be viewed using many different devices: desktops, tablets, and phones. It is called responsive web design when you use CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen.",
+  "description": "It is called responsive web design when you use CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen.",
   "demo": "demo",
   "code": "code",
   "id": "1646739538697",
   "type": "responsive"
+}, {
+  "img": "https://picsum.photos/id/1/250/150",
+  "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+  "title": "jacquit",
+  "description": "VanillaJS is a name to refer to using plain JavaScript without any additional libraries like jQuery.",
+  "demo": "https://nifty-leakey-0a387b.netlify.app",
+  "code": "https://github.com/Tanosimboangy/birthday-app",
+  "id": "1646708290694",
+  "type": "vanilla"
+}, {
+  "img": "https://picsum.photos/id/1/250/150",
+  "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+  "title": "jacquit",
+  "description": "VanillaJS is a name to refer to using plain JavaScript without any additional libraries like jQuery.",
+  "demo": "https://nifty-leakey-0a387b.netlify.app",
+  "code": "https://github.com/Tanosimboangy/birthday-app",
+  "id": "1646708290695",
+  "type": "vanilla"
+}, {
+  "img": "https://picsum.photos/id/1/250/150",
+  "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+  "title": "jacquit",
+  "description": "VanillaJS is a name to refer to using plain JavaScript without any additional libraries like jQuery.",
+  "demo": "https://nifty-leakey-0a387b.netlify.app",
+  "code": "https://github.com/Tanosimboangy/birthday-app",
+  "id": "1646708290696",
+  "type": "vanilla"
 }, {
   "img": "https://picsum.photos/id/1/250/150",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
@@ -30153,9 +30179,6 @@ function Demo() {
     value: "responsive",
     onClick: filteringData
   }, "Responsive")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
-    value: "html&css",
-    onClick: filteringData
-  }, "HTML and CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
     value: "vanilla",
     onClick: filteringData
   }, "Vanilla")))), /*#__PURE__*/_react.default.createElement("div", {

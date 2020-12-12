@@ -17,7 +17,7 @@ function Demo() {
                 <ul className="projects_options">
                     <li><button value="react" onClick={filteringData}>React</button></li>
                     <li><button value="responsive" onClick={filteringData}>Responsive</button></li>
-                    <li><button value="html&css"  onClick={filteringData}>HTML and CSS</button></li>
+                    {/* <li><button value="html&css"  onClick={filteringData}>HTML and CSS</button></li> */}
                     <li><button value="vanilla"  onClick={filteringData}>Vanilla</button></li>
                 </ul>
             </div>

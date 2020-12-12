@@ -1,7 +1,6 @@
 .progress_container {
     padding: 16px;
     background-color: #FFFFFF;
-    border-radius: 12px;
     max-width: 100%;
     margin: auto;
     margin-bottom: 42px;
@@ -38,6 +37,29 @@
         }
         li:not(:last-of-type) {
             padding-bottom: 5px;
+        }
+    }
+}
+
+@media(min-width: 720px) {
+    .progress_container {
+        margin: 0;
+        margin-right: 20px;
+        .progress_lists {
+            padding-bottom: 20px;
+            li {
+                .progress_elements {
+                    li:last-of-type {
+                        // .progress {
+                        //     max-width: 100%;
+                        //     height: 30px;
+                        // }
+                    }
+                }
+            }
+            li:not(:last-of-type) {
+                padding-bottom: 5px;
+            }
         }
     }
 }
