@@ -27,19 +27,17 @@ function Demo() {
                     return (
                         <div className="container" key={item.id}>
                             <img src={item.img} alt={`this image is ${item.title}`}/>
-                            <div>
-                                <ul className="three_basics">
-                                    <li><a href={item.html}>HTML</a></li>
-                                    <li><a href={item.css}>CSS</a></li>
-                                    <li><a href={item.javascript}>JAVASCRIPT</a></li>
-                                </ul>
-                                <h3 className="project_heading">{item.title}</h3>
-                                <p className="project_description">{item.description}</p>
-                                <ul className="buttons_container">
-                                    <li><button><a className="demo_button" href={item.demo}>Demo</a></button></li>
-                                    <li><button><a className="code_button" href={item.code}>Code</a></button></li>
-                                </ul>
-                            </div>
+                            <ul className="three_basics">
+                                <li><a href={item.html}>HTML</a></li>
+                                <li><a href={item.css}>CSS</a></li>
+                                <li><a href={item.javascript}>JAVASCRIPT</a></li>
+                            </ul>
+                            <h3 className="project_heading">{item.title}</h3>
+                            <p className="project_description">{item.description}</p>
+                            <ul className="buttons_container">
+                                <li><button><a className="demo_button" href={item.demo}>Demo</a></button></li>
+                                <li><button><a className="code_button" href={item.code}>Code</a></button></li>
+                            </ul>
                         </div>
                     )
                 })}

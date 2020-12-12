@@ -7,8 +7,12 @@
             display: flex;
             flex-direction: row;
             align-items: center;
-            justify-content: space-around;
+            justify-content: space-between;
+            flex-wrap: wrap;
             padding-top: 20px;
+            li {
+                padding-bottom: 10px;
+            }
             button {
                 border: 0;
                 line-height: 2.5;
@@ -35,21 +39,47 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
         flex-wrap: wrap;
         .container {
             padding: 16px;
             box-shadow: 0px 0px 4px black;
             margin-bottom: 20px;
-            max-width: 300px;
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
+            max-width: 200px;
+            margin-right: 20px;
+            border-radius: 12px;
             img {
                 margin-right: 20px;
                 border-radius: 10px;
-                max-width: 70%;
-                height: 50px;
+                max-width: 100%;
+            }
+            .three_basics {
+                padding: 10px 0;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                max-width: 300px;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                li {
+                    a {
+                        font-size: 12px;
+                        font-weight: 700;
+                    }
+                }
+            }
+            h3 {
+                padding-top: 0;
+                padding-bottom: 5px;
+            }
+            p {
+                font-size: 12px;
+                padding-bottom: 5px;
+            }
+            .buttons_container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
             }
             button {
                 border: 0;

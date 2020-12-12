@@ -29860,8 +29860,8 @@ function Header() {
     d: "M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"
   })))))))));
 }
-},{"react":"node_modules/react/index.js"}],"img/GamingBrowser.png":[function(require,module,exports) {
-module.exports = "/GamingBrowser.e1813a90.png";
+},{"react":"node_modules/react/index.js"}],"img/game.jpg":[function(require,module,exports) {
+module.exports = "/game.365daa7b.jpg";
 },{}],"elements/Blog.js":[function(require,module,exports) {
 "use strict";
 
@@ -29872,7 +29872,7 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _GamingBrowser = _interopRequireDefault(require("../img/GamingBrowser.png"));
+var _game = _interopRequireDefault(require("../img/game.jpg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29883,7 +29883,7 @@ function Blog() {
     className: "blog_heading"
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h2", null, "Blog"), /*#__PURE__*/_react.default.createElement("h3", null, "Organize your CODE")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
     className: "best_design",
-    src: _GamingBrowser.default,
+    src: _game.default,
     alt: "best design"
   })))), /*#__PURE__*/_react.default.createElement("li", {
     className: "blog_paragraph--lists"
@@ -29894,7 +29894,7 @@ function Blog() {
 
 var _default = Blog;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../img/GamingBrowser.png":"img/GamingBrowser.png"}],"elements/Progress.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../img/game.jpg":"img/game.jpg"}],"elements/Progress.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -30032,70 +30032,70 @@ var _default = Masthead;
 exports.default = _default;
 },{"react":"node_modules/react/index.js","../img/jacquit.jpg":"img/jacquit.jpg"}],"data.json":[function(require,module,exports) {
 module.exports = [{
-  "img": "https://picsum.photos/id/1/200/300",
+  "img": "https://picsum.photos/id/1/250/150",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "jacquit",
-  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+  "description": "React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications",
   "demo": "https://country-quiz-project.netlify.app/",
   "code": "https://github.com/Tanosimboangy/country-quiz",
   "id": "1606708578697",
   "type": "react"
 }, {
-  "img": "https://picsum.photos/id/1/200/300",
+  "img": "https://picsum.photos/id/1/250/150",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "jacquit",
-  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+  "description": "React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications",
   "demo": "https://my-hit-parade-project.netlify.app",
   "code": "https://github.com/Tanosimboangy/country-quiz",
-  "id": "1606708578697",
+  "id": "1606708578489",
   "type": "react"
 }, {
-  "img": "https://picsum.photos/id/1/200/300",
+  "img": "https://picsum.photos/id/1/250/150",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "Jacquit",
-  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+  "description": "HTML and CSS are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the layout, for a variety of devices.",
   "demo": "demo",
   "code": "code",
-  "id": "1606708238697",
+  "id": "1606708238111",
   "type": "html&css"
 }, {
-  "img": "https://picsum.photos/id/1/200/300",
+  "img": "https://picsum.photos/id/1/250/150",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "Jacquit",
-  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+  "description": "HTML and CSS are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the layout, for a variety of devices.",
   "demo": "demo",
   "code": "code",
-  "id": "1606708238697",
+  "id": "3906708238697",
   "type": "html&css"
 }, {
-  "img": "https://picsum.photos/id/1/200/300",
+  "img": "https://picsum.photos/id/1/250/150",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "jacquit",
-  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+  "description": "Web pages can be viewed using many different devices: desktops, tablets, and phones. It is called responsive web design when you use CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen.",
   "demo": "demo",
   "code": "code",
-  "id": "1646708538697",
+  "id": "1646739538697",
   "type": "responsive"
 }, {
-  "img": "https://picsum.photos/id/1/200/300",
+  "img": "https://picsum.photos/id/1/250/150",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "jacquit",
-  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+  "description": "VanillaJS is a name to refer to using plain JavaScript without any additional libraries like jQuery.",
   "demo": "https://nifty-leakey-0a387b.netlify.app",
   "code": "https://github.com/Tanosimboangy/birthday-app",
-  "id": "1646708538697",
+  "id": "1646708290697",
   "type": "vanilla"
 }];
 },{}],"elements/Demo.js":[function(require,module,exports) {
@@ -30168,7 +30168,7 @@ function Demo() {
     }, /*#__PURE__*/_react.default.createElement("img", {
       src: item.img,
       alt: "this image is ".concat(item.title)
-    }), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("ul", {
+    }), /*#__PURE__*/_react.default.createElement("ul", {
       className: "three_basics"
     }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
       href: item.html
@@ -30188,7 +30188,7 @@ function Demo() {
     }, "Demo"))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", null, /*#__PURE__*/_react.default.createElement("a", {
       className: "code_button",
       href: item.code
-    }, "Code"))))));
+    }, "Code")))));
   })));
 }
 

@@ -383,8 +383,12 @@ body .main .masthead_container .personal_motivation p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
   padding-top: 20px;
+}
+.demo_section .buttons_lists .projects_options li {
+  padding-bottom: 10px;
 }
 .demo_section .buttons_lists .projects_options button {
   border: 0;
@@ -406,23 +410,47 @@ body .main .masthead_container .personal_motivation p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 .demo_section .wrapper .container {
   padding: 16px;
   box-shadow: 0px 0px 4px black;
   margin-bottom: 20px;
-  max-width: 300px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  max-width: 200px;
+  margin-right: 20px;
+  border-radius: 12px;
 }
 .demo_section .wrapper .container img {
   margin-right: 20px;
   border-radius: 10px;
-  max-width: 70%;
-  height: 50px;
+  max-width: 100%;
+}
+.demo_section .wrapper .container .three_basics {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 300px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.demo_section .wrapper .container .three_basics li a {
+  font-size: 12px;
+  font-weight: 700;
+}
+.demo_section .wrapper .container h3 {
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+.demo_section .wrapper .container p {
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+.demo_section .wrapper .container .buttons_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 .demo_section .wrapper .container button {
   border: 0;
