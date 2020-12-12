@@ -30032,67 +30032,67 @@ var _default = Masthead;
 exports.default = _default;
 },{"react":"node_modules/react/index.js","../img/jacquit.jpg":"img/jacquit.jpg"}],"data.json":[function(require,module,exports) {
 module.exports = [{
-  "img": "",
+  "img": "https://picsum.photos/id/1/200/300",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "jacquit",
-  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
   "demo": "https://country-quiz-project.netlify.app/",
   "code": "https://github.com/Tanosimboangy/country-quiz",
   "id": "1606708578697",
   "type": "react"
 }, {
-  "img": "",
+  "img": "https://picsum.photos/id/1/200/300",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "jacquit",
-  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
   "demo": "https://my-hit-parade-project.netlify.app",
   "code": "https://github.com/Tanosimboangy/country-quiz",
   "id": "1606708578697",
   "type": "react"
 }, {
-  "img": "",
+  "img": "https://picsum.photos/id/1/200/300",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "Jacquit",
-  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
   "demo": "demo",
   "code": "code",
   "id": "1606708238697",
   "type": "html&css"
 }, {
-  "img": "/img/photograph.png",
+  "img": "https://picsum.photos/id/1/200/300",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "Jacquit",
-  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
   "demo": "demo",
   "code": "code",
   "id": "1606708238697",
   "type": "html&css"
 }, {
-  "img": "",
+  "img": "https://picsum.photos/id/1/200/300",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "jacquit",
-  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
   "demo": "demo",
   "code": "code",
   "id": "1646708538697",
   "type": "responsive"
 }, {
-  "img": "",
+  "img": "https://picsum.photos/id/1/200/300",
   "html": "https://developer.mozilla.org/en-US/docs/Web/HTML",
   "css": "https://developer.mozilla.org/en-US/docs/Web/CSS",
   "javascript": "https://developer.mozilla.org/en-US/docs/Web/javascript",
   "title": "jacquit",
-  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+  "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
   "demo": "https://nifty-leakey-0a387b.netlify.app",
   "code": "https://github.com/Tanosimboangy/birthday-app",
   "id": "1646708538697",
@@ -30142,7 +30142,9 @@ function Demo() {
     setNewData(newItem);
   }
 
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h2", null, "Projects (3)"), /*#__PURE__*/_react.default.createElement("ul", {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
+    className: "buttons_lists"
+  }, /*#__PURE__*/_react.default.createElement("h2", null, "Projects (3)"), /*#__PURE__*/_react.default.createElement("p", null, "You can ck"), /*#__PURE__*/_react.default.createElement("ul", {
     className: "projects_options"
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
     value: "react",
@@ -30156,12 +30158,17 @@ function Demo() {
   }, "HTML and CSS")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", {
     value: "vanilla",
     onClick: filteringData
-  }, "Vanilla")))), /*#__PURE__*/_react.default.createElement("div", null, newData.map(function (item) {
+  }, "Vanilla")))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "wrapper"
+  }, newData.map(function (item) {
     console.log(item);
     return /*#__PURE__*/_react.default.createElement("div", {
       className: "container",
       key: item.id
-    }, /*#__PURE__*/_react.default.createElement("ul", {
+    }, /*#__PURE__*/_react.default.createElement("img", {
+      src: item.img,
+      alt: "this image is ".concat(item.title)
+    }), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("ul", {
       className: "three_basics"
     }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
       href: item.html
@@ -30175,13 +30182,13 @@ function Demo() {
       className: "project_description"
     }, item.description), /*#__PURE__*/_react.default.createElement("ul", {
       className: "buttons_container"
-    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", null, /*#__PURE__*/_react.default.createElement("a", {
       className: "demo_button",
       href: item.demo
-    }, "Demo")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    }, "Demo"))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("button", null, /*#__PURE__*/_react.default.createElement("a", {
       className: "code_button",
       href: item.code
-    }, "Code"))));
+    }, "Code"))))));
   })));
 }
 
@@ -30281,7 +30288,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60318" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49906" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
