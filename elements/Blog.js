@@ -9,7 +9,7 @@ function Blog() {
                     <li>
                         <ul>
                             <li>
-                                <h2>Blog</h2>
+                                <h2>Coding</h2>
                                 <h3>Organize your CODE</h3>
                             </li>
                             <li><img className="best_design" src={clean_code} alt="best design"/></li>

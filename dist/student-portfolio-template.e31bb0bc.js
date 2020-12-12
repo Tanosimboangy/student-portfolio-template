@@ -29881,7 +29881,7 @@ function Blog() {
     className: "blog_section"
   }, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("ul", {
     className: "blog_heading"
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h2", null, "Blog"), /*#__PURE__*/_react.default.createElement("h3", null, "Organize your CODE")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h2", null, "Coding"), /*#__PURE__*/_react.default.createElement("h3", null, "Organize your CODE")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
     className: "best_design",
     src: _clean_code.default,
     alt: "best design"
@@ -29958,7 +29958,7 @@ var _default = Progress;
 exports.default = _default;
 },{"react":"node_modules/react/index.js"}],"img/jacquit.jpg":[function(require,module,exports) {
 module.exports = "/jacquit.c3decd13.jpg";
-},{}],"components/Masthead.js":[function(require,module,exports) {
+},{}],"elements/Masthead.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -30231,7 +30231,7 @@ var _Blog = _interopRequireDefault(require("../elements/Blog"));
 
 var _Progress = _interopRequireDefault(require("../elements/Progress"));
 
-var _Masthead = _interopRequireDefault(require("../components/Masthead"));
+var _Masthead = _interopRequireDefault(require("../elements/Masthead"));
 
 var _Demo = _interopRequireDefault(require("../elements/Demo"));
 
@@ -30249,7 +30249,56 @@ function Main() {
 
 var _default = Main;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../elements/Blog":"elements/Blog.js","../elements/Progress":"elements/Progress.js","../components/Masthead":"components/Masthead.js","../elements/Demo":"elements/Demo.js"}],"components/App.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../elements/Blog":"elements/Blog.js","../elements/Progress":"elements/Progress.js","../elements/Masthead":"elements/Masthead.js","../elements/Demo":"elements/Demo.js"}],"components/Footer.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Footer() {
+  return /*#__PURE__*/_react.default.createElement("footer", null, /*#__PURE__*/_react.default.createElement("div", {
+    className: "footer_container"
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Portfolio"), /*#__PURE__*/_react.default.createElement("p", null, "To sum up all about this website, I would like to thank you for allocating some of your time to read through this page"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "wrapper_footer"
+  }, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("nav", {
+    className: "footer_navigation"
+  }, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", {
+    className: "footer_navigation--email"
+  }, /*#__PURE__*/_react.default.createElement("a", {
+    className: "footer_navigation--email_link",
+    href: "mailto:rak.hajasper@mail.com?"
+  }, "Email", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    height: "24",
+    viewBox: "0 0 24 24",
+    fill: "blue",
+    width: "24"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M0 0h24v24H0z",
+    fill: "none"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+  }))))))), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h4", null, "More Inforamtion"), /*#__PURE__*/_react.default.createElement("p", null, "Should you need more inforamtion, please let me through these links!"), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "footer_moreInfo"
+  }, /*#__PURE__*/_react.default.createElement("li", {
+    className: "footer_links"
+  }), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
+    src: "./img/jacquit (2).jpg",
+    alt: "this is Jacquit"
+  })), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "Built by Jacquit"), /*#__PURE__*/_react.default.createElement("li", null, "Created in 2020"))))))), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "last_footer_items"
+  }, /*#__PURE__*/_react.default.createElement("li", null, "Created by Jacquit"), /*#__PURE__*/_react.default.createElement("li", null, "\xA9 Jacquit, 2020. All rights reserved.")))));
+}
+
+var _default = Footer;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"components/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -30263,15 +30312,17 @@ var _Header = _interopRequireDefault(require("./Header"));
 
 var _Main = _interopRequireDefault(require("./Main"));
 
+var _Footer = _interopRequireDefault(require("./Footer"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_Header.default, null), /*#__PURE__*/_react.default.createElement(_Main.default, null));
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_Header.default, null), /*#__PURE__*/_react.default.createElement(_Main.default, null), /*#__PURE__*/_react.default.createElement(_Footer.default, null));
 }
 
 var _default = App;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./Header":"components/Header.js","./Main":"components/Main.js"}],"index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./Header":"components/Header.js","./Main":"components/Main.js","./Footer":"components/Footer.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));

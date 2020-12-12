@@ -63,32 +63,19 @@
 
 @media(min-width: 720px) {
     .blog_section {
-        max-width: 350px;
+        max-width: 470px;
         margin-left: auto;
+        margin-bottom: 0;
         article {
             .blog_heading {
                 li:first-of-type {
                     ul {
-                        li:first-of-type {
-                            h2 {
-                            }
-                            h3 {
-                            }
-                        }
                         li:nth-of-type(2) {
                             img {
                                 max-width: 150px;
                                 border-radius: 12px;
                             }
                         }
-                    }
-                }
-                li:nth-of-type(2) {
-                    .blog_paragraph--lists {
-                    }
-                }
-                li:nth-of-type(3) {
-                    .blog_paragraph--lists {
                     }
                 }
             }

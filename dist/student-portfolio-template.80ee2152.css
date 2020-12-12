@@ -392,8 +392,9 @@ body .main .masthead_container .personal_motivation p {
 
 @media (min-width: 720px) {
   .blog_section {
-    max-width: 350px;
+    max-width: 470px;
     margin-left: auto;
+    margin-bottom: 0;
   }
   .blog_section article .blog_heading li:first-of-type ul li:nth-of-type(2) img {
     max-width: 150px;
@@ -502,6 +503,44 @@ body .main .masthead_container .personal_motivation p {
 }
 .demo_section .wrapper::-webkit-scrollbar {
   display: none;
+}
+
+footer {
+  background-color: white;
+  padding: 0 16px;
+}
+footer .footer_container h3 {
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+footer .footer_container p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 30px;
+}
+footer .footer_container .wrapper_footer {
+  display: flex;
+  flex-direction: columns;
+}
+
+@media (min-width: 720px) {
+  footer .footer_container {
+    padding: 0;
+    max-width: 1000px;
+    margin: auto;
+  }
+  footer .footer_container h3 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
 }
 
 /*# sourceMappingURL=/student-portfolio-template.80ee2152.css.map */
